@@ -1,0 +1,1245 @@
+index,Company,TypeName,Inches,ScreenResolution,Cpu,ram,Memory,memory_space,memory_type,extend_memory,gpu_brand,OpSys,gpu_name,Weight,price,extend_memory_type
+0,Apple,Ultrabook,13.0,"IPS Panel Retina Display 2560x1600","Intel Core i5 2.3GHz",8,"128GB SSD",128GB," SSD",NULL,Intel,macos," Iris Plus Graphics 640",1.37,71379,NULL
+1,Apple,Ultrabook,13.0,1440x900,"Intel Core i5 1.8GHz",8,"128GB Flash Storage",128GB," Flash Storage",NULL,Intel,macos," HD Graphics 6000",1.34,47896,NULL
+2,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,NA," HD Graphics 620",1.86,30636,NULL
+3,Apple,Ultrabook,15.0,"IPS Panel Retina Display 2880x1800","Intel Core i7 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,AMD,macos," Radeon Pro 455",1.83,135195,NULL
+4,Apple,Ultrabook,13.0,"IPS Panel Retina Display 2560x1600","Intel Core i5 3.1GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,macos," Iris Plus Graphics 650",1.37,96096,NULL
+5,Acer,Notebook,16.0,1366x768,"AMD A9-Series 9420 3GHz",4,"500GB HDD",500GB," HDD",NULL,AMD,windows," Radeon R5",2.1,21312,NULL
+6,Apple,Ultrabook,15.0,"IPS Panel Retina Display 2880x1800","Intel Core i7 2.2GHz",16,"256GB Flash Storage",256GB," Flash Storage",NULL,Intel,macos," Iris Pro Graphics",2.04,114018,NULL
+7,Apple,Ultrabook,13.0,1440x900,"Intel Core i5 1.8GHz",8,"256GB Flash Storage",256GB," Flash Storage",NULL,Intel,macos," HD Graphics 6000",1.34,61736,NULL
+8,Asus,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce MX150",1.3,79654,NULL
+9,Acer,Ultrabook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.6,41026,NULL
+10,HP,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,NA," HD Graphics 620",1.86,20987,NULL
+11,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,NA," HD Graphics 520",1.86,18381,NULL
+12,Apple,Ultrabook,15.0,"IPS Panel Retina Display 2880x1800","Intel Core i7 2.8GHz",16,"256GB SSD",256GB," SSD",NULL,AMD,macos," Radeon Pro 555",1.83,130002,NULL
+13,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon R5 M430",2.2,26581,NULL
+14,Apple,Ultrabook,12.0,"IPS Panel Retina Display 2304x1440","Intel Core M m3 1.2GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,macos," HD Graphics 615",0.92,67261,NULL
+15,Apple,Ultrabook,13.0,"IPS Panel Retina Display 2560x1600","Intel Core i5 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,macos," Iris Plus Graphics 640",1.37,80908,NULL
+16,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon R5 M430",2.2,39694,NULL
+17,Apple,Ultrabook,15.0,"IPS Panel Retina Display 2880x1800","Intel Core i7 2.9GHz",16,"512GB SSD",512GB," SSD",NULL,AMD,macos," Radeon Pro 560",1.83,152274,NULL
+18,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 7100U 2.4GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,NA," GeForce 940MX",2.2,26587,NULL
+19,Dell,Ultrabook,13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i5 8250U 1.6GHz",8,"128GB SSD",128GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.22,52161,NULL
+21,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.5,53227,HDD
+22,HP,Notebook,16.0,1366x768,"AMD E-Series E2-9000e 1.5GHz",4,"500GB HDD",500GB," HDD",NULL,AMD,NA," Radeon R2",1.86,13746,NULL
+23,Dell,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.62,43636,NULL
+24,HP,Ultrabook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.91,35112,NULL
+25,Dell,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 520",2.3,22305,NULL
+26,Apple,Ultrabook,13.0,1440x900,"Intel Core i5 1.6GHz",8,"128GB Flash Storage",128GB," Flash Storage",NULL,Intel,macos," HD Graphics 6000",1.35,58555,NULL
+27,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 530",2.2,42624,NULL
+28,Dell,Ultrabook,16.0,"Full HD 1920x1080","Intel Core i7 8650U 1.9GHz",8,"256GB SSD +  256GB SSD",256GB,SSD,NULL,Intel,windows," UHD Graphics 620",1.88,69157,NULL
+29,HP,Notebook,17.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 930MX",2.5,47739,NULL
+30,Chuwi,Notebook,16.0,"Full HD 1920x1080","Intel Atom x5-Z8300 1.44GHz",4,"64GB Flash Storage",64GB," Flash Storage",NULL,Intel,windows," HD Graphics",1.89,13053,NULL
+31,Asus,Notebook,14.0,1366x768,"AMD E-Series E2-6110 1.5GHz",2,"32GB Flash Storage",32GB," Flash Storage",NULL,AMD,windows," Radeon R2",1.65,10603,NULL
+32,HP,Notebook,17.0,"Full HD 1920x1080","AMD A6-Series 9220 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,AMD,windows," Radeon 530",2.71,23390,NULL
+33,Dell,Ultrabook,13.0,"Touchscreen / Quad HD+ 3200x1800","Intel Core i7 8550U 1.8GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.2,99580,NULL
+34,Apple,Ultrabook,13.0,1440x900,"Intel Core i5 1.6GHz",8,"256GB Flash Storage",256GB," Flash Storage",NULL,Intel,macos," HD Graphics 6000",1.35,53173,NULL
+35,Lenovo,Notebook,14.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",4,"64GB Flash Storage",64GB," Flash Storage",NULL,Intel,windows," HD Graphics 500",1.44,13267,NULL
+36,Acer,Notebook,16.0,1366x768,"Intel Core i3 7130U 2.7GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,linux," HD Graphics 620",2.1,19554,NULL
+37,Dell,Notebook,17.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,AMD,windows," Radeon 530",2.8,52161,HDD
+38,HP,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",1.86,26037,NULL
+39,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 930MX ",2.1,46833,NULL
+40,Asus,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,linux," HD Graphics 620",2,20726,NULL
+41,Dell,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.65,79867,HDD
+42,Asus,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,linux," GeForce 940MX",2.3,27865,NULL
+43,Acer,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",2.2,36337,NULL
+44,Dell,"2 in 1 Convertible",17.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 8250U 1.6GHz",12,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 150MX",2.77,53227,NULL
+45,Apple,Ultrabook,13.0,"IPS Panel Retina Display 2560x1600","Intel Core i5 2.0GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,macos," Iris Graphics 540",1.37,75604,NULL
+47,Asus,Gaming,17.0,"Full HD 1920x1080","AMD Ryzen 1700 3GHz",8,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,AMD,windows," Radeon RX 580",3.2,69211,HDD
+48,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon R5 M430",2.3,34046,NULL
+49,Asus,Notebook,17.0,1366x768,"Intel Pentium Quad Core N4200 1.1GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 920MX",2.8,24828,NULL
+51,Acer,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce MX150",2.2,44808,NULL
+52,HP,Notebook,16.0,"Full HD 1920x1080","AMD A6-Series 9220 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon R4 Graphics",1.86,21232,NULL
+53,HP,Notebook,13.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.49,58768,NULL
+54,Acer,Notebook,16.0,1366x768,"Intel Core i3 7100U 2.4GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.4,20460,NULL
+55,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 520",2.13,40908,NULL
+56,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",1.91,23390,NULL
+57,Asus,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2,31232,NULL
+58,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  2TB HDD",256GB," SSD   ",2TB,Nvidia,windows," GeForce GTX 1070",2.43,130483,HDD
+59,Asus,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,linux," HD Graphics 520",2,22111,NULL
+60,Dell,Notebook,17.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",16,"256GB SSD +  2TB HDD",256GB," SSD   ",2TB,AMD,windows," Radeon 530",2.8,69211,HDD
+61,Dell,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.7,46833,NULL
+62,Lenovo,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i3 7130U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,NA," HD Graphics 620",1.7,31915,NULL
+63,Asus,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.4,50136,NULL
+64,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.86,36763,NULL
+65,Asus,Ultrabook,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050 Ti",1.8,105654,NULL
+66,HP,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"500GB HDD",500GB," HDD",NULL,AMD,windows," Radeon 520",1.86,23373,NULL
+67,HP,Notebook,14.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",4,"32GB SSD",32GB," SSD",NULL,Intel,windows," HD Graphics 400",1.44,12201,NULL
+68,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",1.9,29251,NULL
+69,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",12,"1TB HDD",1TB," HDD",NULL,Nvidia,linux," GeForce GTX 1050 Ti",3,50563,NULL
+70,Microsoft,Ultrabook,14.0,"Touchscreen 2256x1504","Intel Core i5 7200U 2.5GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",1.252,58022,NULL
+71,Dell,Ultrabook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",64,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 530",1.4,50882,NULL
+72,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 530",2.2,46354,NULL
+73,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.7,58342,HDD
+74,Acer,Notebook,14.0,1366x768,"Intel Core i3 6006U 2GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 520",2.1,20726,NULL
+75,Asus,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 1050",2.2,50563,NULL
+76,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"2TB HDD",2TB," HDD",NULL,Intel,NA," HD Graphics 620",2.2,27652,NULL
+77,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Intel,windows," UHD Graphics 620",2.02,45554,HDD
+78,Acer,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 7130U 2.7GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce MX130",2.2,28238,NULL
+79,HP,Notebook,17.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce 930MX",2.5,52055,HDD
+80,Dell,Ultrabook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.88,58403,NULL
+81,Apple,Ultrabook,12.0,"IPS Panel Retina Display 2304x1440","Intel Core i5 1.3GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,macos," HD Graphics 615",0.92,80453,NULL
+82,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.63,45821,NULL
+83,Lenovo,Notebook,16.0,"Full HD 1920x1080","AMD A6-Series 9220 2.5GHz",4,"128GB SSD",128GB," SSD",NULL,AMD,windows," R4 Graphics",2.2,21259,NULL
+84,Acer,Notebook,16.0,1366x768,"AMD A9-Series 9420 3GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R5",2.1,21046,NULL
+85,Dell,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050 Ti",2.65,71875,HDD
+86,HP,Ultrabook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 940MX",1.83,37243,NULL
+87,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.96,31914,NULL
+88,Asus,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.2,77203,HDD
+89,Dell,Ultrabook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.21,87859,NULL
+90,Asus,Gaming,16.0,"Full HD 1920x1080","AMD FX 9830P 3GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon RX 560",2.45,37243,NULL
+91,Acer,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",2,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce MX150",2.2,36710,NULL
+92,HP,Notebook,13.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.49,63776,NULL
+93,Dell,Gaming,16.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 1060",2.65,63670,NULL
+94,Asus,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.25,55891,NULL
+95,Acer,"2 in 1 Convertible",13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.5,45128,NULL
+96,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,linux," Radeon R5 M430",2.2,31963,NULL
+97,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"256GB SSD",256GB," SSD",NULL,AMD,linux," Radeon R5 M430",2.2,25841,NULL
+98,Asus,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 7100U 2.4GHz",6,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 920M",2,30743,NULL
+99,HP,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",12,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.62,66547,HDD
+100,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 530",1.91,38308,NULL
+101,HP,Notebook,16.0,"Full HD 1920x1080","AMD E-Series E2-9000e 1.5GHz",4,"500GB HDD",500GB," HDD",NULL,AMD,windows," Radeon R2",2.1,18595,NULL
+102,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,linux," Radeon 520",2.2,34472,NULL
+103,HP,Ultrabook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce MX150",1.38,59620,NULL
+104,Microsoft,Ultrabook,14.0,"Touchscreen 2256x1504","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.252,71395,NULL
+105,HP,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",6,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 940MX",1.58,35112,NULL
+106,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 520",1.85,22106,NULL
+107,Asus,Ultrabook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 940MX",1.3,63563,NULL
+108,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050 Ti",2.2,69211,HDD
+109,Lenovo,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.58,78854,NULL
+110,Asus,Ultrabook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce MX150",1.5,67239,HDD
+111,Dell,Ultrabook,13.0,"Quad HD+ / Touchscreen 3200x1800","Intel Core i7 7560U 2.4GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," Iris Plus Graphics 640",1.23,73473,NULL
+112,Lenovo,"2 in 1 Convertible",13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.37,74539,NULL
+113,HP,Notebook,14.0,"IPS Panel 1366x768","Intel Core i5 8250U 1.6GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," UHD Graphics 620",1.63,38468,NULL
+114,Dell,Ultrabook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.21,86793,NULL
+116,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.63,57756,NULL
+117,Dell,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce 940MX",2.16,60224,HDD
+118,Asus,Notebook,17.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 920MX",2,30050,NULL
+119,Asus,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 940MX",1.7,59567,NULL
+120,Acer,Notebook,16.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i3 7100U 2.4GHz",6,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.1,25521,NULL
+121,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  2TB HDD",256GB," SSD   ",2TB,Nvidia,windows," GeForce GTX 1070",1.8,119427,HDD
+122,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,NA," GeForce 940MX",2.2,33513,NULL
+123,HP,Notebook,17.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce 930MX ",2.5,67719,NULL
+124,Acer,Notebook,16.0,1366x768,"AMD A9-Series 9420 3GHz",4,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon R5",2.1,24029,NULL
+126,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," UHD Graphics 620",1.63,43263,NULL
+127,Asus,Notebook,14.0,1366x768,"AMD E-Series 6110 1.5GHz",4,"64GB SSD",64GB," SSD",NULL,AMD,windows," Radeon R2",1.65,14811,NULL
+128,Dell,Notebook,17.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",16,"256GB SSD +  2TB HDD",256GB," SSD   ",2TB,AMD,windows," Radeon 530",2.8,74379,HDD
+129,HP,Notebook,17.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",2.5,49444,NULL
+130,Dell,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R7 M445",2.36,34045,NULL
+131,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R5 M430",2.2,23923,NULL
+132,Acer,Ultrabook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.6,47100,NULL
+133,Acer,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 7130U 2.7GHz",4,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce MX130",7.2,30476,NULL
+134,HP,Notebook,16.0,1366x768,"Intel Core i7 7500U 2.7GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.05,31861,NULL
+135,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.63,52641,NULL
+136,Lenovo,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,NA," HD Graphics 500",1.9,13446,NULL
+137,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",3,49977,HDD
+138,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,NA," GeForce 920MX",2.2,26587,NULL
+139,HP,Notebook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.32,37243,NULL
+140,Acer,Notebook,17.0,"IPS Panel Full HD 1920x1080","Intel Core i3 7130U 2.7GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce MX130",3,34898,NULL
+141,Lenovo,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon RX 550",1.75,59462,NULL
+142,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,NA," GeForce GTX 1050M",2.4,46300,NULL
+143,Toshiba,Notebook,16.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",2.1,32075,NULL
+144,HP,Notebook,16.0,1366x768,"AMD A6-Series 9220 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon R4 Graphics",1.86,19660,NULL
+145,Asus,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.25,58555,NULL
+146,HP,Ultrabook,13.0,"IPS Panel 4K Ultra HD / Touchscreen 3840x2160","Intel Core M 6Y75 1.2GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 515",0.97,107306,NULL
+147,Asus,Notebook,16.0,"Full HD 1920x1080","Intel Celeron Dual Core N3350 1.1GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 500",2,18328,NULL
+149,Acer,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 520",2.1,23816,NULL
+150,Dell,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050",2.56,66561,NULL
+151,Dell,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"1.0TB Hybrid",1.0TB," Hybrid",NULL,Nvidia,windows," GeForce GTX 1050",2.62,47899,NULL
+152,Lenovo,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",1.9,26533,NULL
+153,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.8,100699,HDD
+154,HP,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i5 7500U 2.7GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.48,57649,NULL
+155,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",6,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 520",1.91,32980,NULL
+156,Lenovo,"2 in 1 Convertible",14.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i3 7100U 2.4GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.74,33513,NULL
+157,Asus,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.1,70063,NULL
+158,Dell,"2 in 1 Convertible",16.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.56,55891,NULL
+159,Toshiba,Notebook,16.0,1366x768,"Intel Core i3 6006U 2.2GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",2.1,23816,NULL
+160,Asus,Notebook,16.0,1366x768,"AMD A9-Series 9420 3GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R5 M420",2.03,21472,NULL
+161,Acer,Notebook,17.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",4,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce MX150",3,42890,NULL
+162,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 520",2.13,38788,NULL
+163,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050 Ti",2.5,57489,NULL
+164,Acer,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 500",2.1,18541,NULL
+165,MSI,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.4,95851,HDD
+166,Acer,Notebook,16.0,1366x768,"Intel Pentium Quad Core N4200 1.1GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 505",2.1,19368,NULL
+167,Dell,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.56,56503,HDD
+168,Acer,Notebook,17.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce MX150",3,45501,NULL
+169,HP,Notebook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," UHD Graphics 620",1.49,40173,NULL
+170,Huawei,Ultrabook,13.0,"IPS Panel Full HD 2160x1440","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.05,71875,NULL
+171,HP,Notebook,17.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",6,"2TB HDD",2TB," HDD",NULL,AMD,windows," Radeon 520",2.71,37243,NULL
+172,Lenovo,Notebook,16.0,1366x768,"AMD A6-Series 9220 2.9GHz",4,"500GB HDD",500GB," HDD",NULL,AMD,NA," Radeon R4 Graphics",2.2,16464,NULL
+173,Toshiba,Notebook,16.0,1366x768,"Intel Core i3 7100U 2.4GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",5.4,26054,NULL
+174,HP,Notebook,17.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 930MX",2.5,49177,NULL
+175,Dell,Notebook,16.0,1366x768,"Intel Core i3 7100U 2.4GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.3,24456,NULL
+176,Acer,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",2.1,23923,NULL
+177,MSI,Gaming,18.0,"Full HD 1920x1080","Intel Core i7 6920HQ 2.9GHz",32,"512GB SSD +  1TB HDD",512GB," SSD   ",1TB,Nvidia,windows," GTX 980 SLI",4.4,149131,HDD
+178,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,AMD,windows," R17M-M1-70",1.90,43317,HDD
+179,HP,"2 in 1 Convertible",13.0,"IPS Panel 4K Ultra HD / Touchscreen 3840x2160","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.29,79867,NULL
+180,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",16,"256GB SSD +  2TB HDD",256GB," SSD   ",2TB,AMD,linux," Radeon 530",2.02,55891,HDD
+181,Dell,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.23,74539,NULL
+182,Lenovo,"2 in 1 Convertible",14.0,"IPS Panel 4K Ultra HD / Touchscreen 3840x2160","Intel Core i7 8550U 1.8GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.4,98515,NULL
+183,Toshiba,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",8,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",2.0,42251,NULL
+184,Xiaomi,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,NA," GeForce MX150",1.95,63883,NULL
+185,Dell,Notebook,17.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 8550U 1.8GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce 150MX",2.77,82531,NULL
+186,Dell,Notebook,16.0,"4K Ultra HD / Touchscreen 3840x2160","Intel Core i7 7700HQ 2.8GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050",2.06,127712,NULL
+187,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,NA," GeForce GTX 1050",2.4,41505,NULL
+188,Acer,Ultrabook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7Y54 1.2GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 615",1.12,52694,NULL
+189,Dell,Notebook,17.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,AMD,windows," Radeon 530",2.8,57809,HDD
+191,Vero,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Celeron Dual Core N3350 1.1GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 500",1.3,13853,NULL
+192,Xiaomi,Ultrabook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,NA," GeForce MX150",1.3,53275,NULL
+193,Lenovo,Notebook,17.0,1600x900,"Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,NA," GeForce MX150",2.8,37189,NULL
+194,Dell,"2 in 1 Convertible",13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 8550U 1.8GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," UHD Graphics 620",1.62,44702,NULL
+195,HP,Notebook,17.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 930MX",2.5,48698,NULL
+196,Razer,Gaming,17.0,"4K Ultra HD / Touchscreen 3840x2160","Intel Core i7 7820HK 2.9GHz",32,"1TB SSD",1TB," SSD",NULL,Nvidia,windows," GeForce GTX 1080",3.49,324955,NULL
+197,HP,Notebook,13.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.49,51096,NULL
+198,HP,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",3.35,73473,HDD
+199,HP,Notebook,17.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 930MX ",2.5,55678,NULL
+200,Dell,Gaming,16.0,"IPS Panel 4K Ultra HD 3840x2160","Intel Core i7 7700HQ 2.8GHz",16,"512GB SSD +  1TB HDD",512GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.65,98302,HDD
+201,Lenovo,Notebook,16.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",2.1,26267,NULL
+202,Acer,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 940MX",2.23,39534,NULL
+203,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"512GB SSD +  1TB HDD",512GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",3.2,93187,HDD
+204,Dell,Workstation,16.0,"4K Ultra HD 3840x2160","Intel Xeon E3-1505M V6 3GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," Quadro M1200",2.8,162770,HDD
+205,Lenovo,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,NA," GeForce GTX 1060",2.4,74485,NULL
+206,Dell,Notebook,16.0,"Touchscreen 1366x768","Intel Core i3 7100U 2.4GHz",6,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.3,23390,NULL
+207,Dell,Ultrabook,13.0,"IPS Panel 4K Ultra HD / Touchscreen 3840x2160","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.21,103843,NULL
+208,Dell,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",2.5,77203,NULL
+210,Acer,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,linux," GeForce GTX 1050",2.4,41505,NULL
+211,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.9,74965,HDD
+212,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,NA," HD Graphics 520",2.1,18595,NULL
+213,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,NA," HD Graphics 620",2.2,29251,NULL
+214,Huawei,Ultrabook,13.0,"IPS Panel Full HD 2160x1440","Intel Core i7 7500U 2.7GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.05,79867,NULL
+215,Dell,Ultrabook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 530",1.4,49651,NULL
+216,Lenovo,Notebook,17.0,1600x900,"Intel Core i5 7200U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,NA," GeForce GTX 940MX",2.8,31382,NULL
+217,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 930MX",1.63,54932,NULL
+218,Dell,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.6,61219,NULL
+219,Dell,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 8550U 1.8GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.62,68145,NULL
+220,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,linux," Radeon 520",2.2,36089,NULL
+221,Lenovo,"2 in 1 Convertible",14.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.74,47899,NULL
+222,Toshiba,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.2,72621,NULL
+223,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," UHD Graphics 620",2.1,42304,NULL
+224,Dell,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",4.42,130874,HDD
+225,Acer,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 940MX",2.2,44329,NULL
+226,Dell,Notebook,16.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",16,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R7 M445",2.3,45768,NULL
+227,Asus,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 920MX ",2,40972,NULL
+228,Asus,Notebook,17.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD +  500GB HDD",256GB," SSD   500GB HDD",NULL,Nvidia,windows," GeForce GTX 950M",2.69,47472,NULL
+229,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,windows," FirePro W4190M ",1.9,67612,NULL
+230,Asus,Notebook,16.0,1366x768,"Intel Core i3 7100U 2.4GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.37,21258,NULL
+231,HP,Notebook,16.0,1366x768,"AMD E-Series 9000e 1.5GHz",4,"500GB HDD",500GB," HDD",NULL,AMD,windows," Radeon R2",2.1,17582,NULL
+232,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",3.2,79867,HDD
+233,Dell,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.6,45768,NULL
+234,Acer,"2 in 1 Convertible",13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.6,36710,NULL
+235,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",16,"256GB SSD",256GB," SSD",NULL,AMD,linux," Radeon R7 M445",2.36,47899,NULL
+236,Acer,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,linux," HD Graphics 520",2.1,20779,NULL
+237,Asus,Notebook,16.0,"Full HD 1920x1080","AMD A10-Series A10-9620P 2.5GHz",4,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,AMD,windows," Radeon R5 M430",2.2,30636,HDD
+238,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7820HK 2.9GHz",32,"512GB SSD +  1TB HDD",512GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1080",4.7,207259,HDD
+239,Acer,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050",2.5,45075,NULL
+240,Lenovo,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",8,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",7.2,31382,NULL
+241,Asus,Notebook,17.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce 150MX",2.1,61006,HDD
+242,Asus,Notebook,17.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,NA," GeForce GTX 950M",2.69,47366,HDD
+243,Dell,Gaming,16.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050",2.56,46833,NULL
+244,Lenovo,"2 in 1 Convertible",14.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.38,57489,NULL
+245,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"128GB SSD +  2TB HDD",128GB," SSD   ",2TB,AMD,windows," Radeon 530",2.2,52481,HDD
+246,HP,Notebook,16.0,"Touchscreen 1366x768","Intel Core i5 7200U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.04,29784,NULL
+247,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7820HK 2.9GHz",16,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 1080",3.6,159787,NULL
+248,HP,Notebook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," UHD Graphics 620",1.49,35964,NULL
+249,Apple,Ultrabook,13.0,"IPS Panel Retina Display 2560x1600","Intel Core i5 3.1GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,macos," Iris Plus Graphics 650",1.37,108691,NULL
+250,Dell,"2 in 1 Convertible",16.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 8550U 1.8GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," UHD Graphics 620",2.08,43636,NULL
+251,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 980M",4.3,95851,HDD
+252,Asus,Notebook,16.0,1366x768,"AMD A9-Series 9420 3GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R5 M420",1.68,24988,NULL
+253,Lenovo,"2 in 1 Convertible",14.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 8550U 1.8GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.37,98515,NULL
+254,Acer,Notebook,17.0,"IPS Panel Full HD 1920x1080","Intel Core i3 7130U 2.7GHz",4,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce MX130",3,37403,NULL
+255,Dell,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.41,50563,NULL
+256,HP,Notebook,16.0,1366x768,"AMD A6-Series A6-9220 2.5GHz",8,"128GB SSD",128GB," SSD",NULL,AMD,windows," Radeon R4 Graphics",1.91,23758,NULL
+257,HP,Notebook,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",16,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce MX150",2.9,56424,NULL
+258,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"512GB SSD +  1TB HDD",512GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",4.14,133147,HDD
+259,Lenovo,"2 in 1 Convertible",16.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050M",2,90523,NULL
+260,Dell,Notebook,17.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,AMD,windows," Radeon 530",2.8,60846,HDD
+261,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,NA," HD Graphics 520",2.2,23656,NULL
+262,HP,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",2.1,38468,NULL
+263,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.18,35005,NULL
+264,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R5 M430",2.24,30103,NULL
+265,Dell,"2 in 1 Convertible",16.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",2.67,42571,NULL
+266,Asus,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 8550U 1.8GHz",8,"512GB SSD +  512GB SSD",512GB,SSD,NULL,Intel,windows," UHD Graphics 620",4.1,79867,NULL
+268,HP,Notebook,17.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 930MX ",2.5,54239,NULL
+269,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",2.05,46886,NULL
+270,Apple,Ultrabook,13.0,"IPS Panel Retina Display 2560x1600","Intel Core i5 2.9GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,macos," Iris Graphics 550",1.37,104370,NULL
+271,Asus,Gaming,17.0,"Full HD 1920x1080","AMD Ryzen 1700 3GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,AMD,windows," Radeon RX 580",3.2,82531,HDD
+272,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,linux," Radeon 520",2.14,39165,NULL
+273,Lenovo,"2 in 1 Convertible",14.0,"Touchscreen 2560x1440","Intel Core i7 6600U 2.6GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 520",1.36,133147,NULL
+274,Toshiba,Notebook,16.0,1366x768,"Intel Core i7 6500U 2.5GHz",8,"500GB HDD",500GB," HDD",NULL,Nvidia,windows," GeForce 930M",2.2,43263,NULL
+275,Dell,Notebook,16.0,1366x768,"Intel Core i7 7500U 2.7GHz",12,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.3,37992,NULL
+276,Dell,Notebook,17.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,AMD,linux," Radeon 530",2.8,58555,HDD
+277,Acer,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce MX130",2.2,39694,NULL
+278,Lenovo,Notebook,17.0,1600x900,"Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 520",2.8,26054,NULL
+279,Lenovo,Notebook,17.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"2TB HDD",2TB," HDD",NULL,Nvidia,NA," GeForce MX150",2.8,45235,NULL
+280,Lenovo,Notebook,17.0,1600x900,"Intel Core i7 7500U 2.7GHz",6,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce 940MX",2.8,45768,HDD
+281,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2.0GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,linux," Radeon R5 M430",2.25,22804,NULL
+282,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050",2.5,44169,NULL
+283,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",6,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2.2,30849,NULL
+284,Acer,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce MX150",3,50669,NULL
+285,Acer,Notebook,16.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",12,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.15,35112,NULL
+286,Lenovo,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 630",1.95,58448,NULL
+287,Asus,Ultrabook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 940MX",1.7,52055,NULL
+288,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050 Ti",2.5,62817,HDD
+289,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,NA," GeForce 940MX",2.2,35112,NULL
+290,Acer,Notebook,16.0,1366x768,"Intel Celeron Dual Core 3205U 1.5GHz",2,"16GB SSD",16GB," SSD",NULL,Intel,others," HD Graphics",2.19,10603,NULL
+291,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 1050",3,63243,NULL
+292,HP,Notebook,17.0,1600x900,"Intel Core i3 6006U 2GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 520",2.54,26054,NULL
+293,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050",2,97449,NULL
+294,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",2.05,39374,NULL
+295,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 1060",3.2,69211,NULL
+296,Acer,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,linux," GeForce GTX 1050 Ti",2.5,52161,NULL
+297,Dell,Workstation,17.0,"Full HD 1920x1080","Intel Core i7 7820HQ 2.9GHz",16,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," Quadro M1200",3.42,153705,NULL
+298,Lenovo,Notebook,16.0,"Full HD 1920x1080","AMD A10-Series 9600P 2.4GHz",6,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R5 430",2.4,26587,NULL
+299,Asus,Ultrabook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce 940MX",1.63,78215,NULL
+300,Asus,Notebook,14.0,1366x768,"Intel Core i3 7100U 2.4GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",1.3,27120,NULL
+301,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",2.9,113060,HDD
+302,Lenovo,Notebook,17.0,1600x900,"Intel Core i5 7200U 2.5GHz",6,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 940M",5.8,34579,NULL
+303,Lenovo,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",8,"2TB HDD",2TB," HDD",NULL,Nvidia,NA," GeForce 940MX",2.2,29251,NULL
+304,Asus,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050 Ti",2.5,67399,HDD
+305,Lenovo,Notebook,16.0,1366x768,"Intel Pentium Quad Core N4200 1.1GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,NA," HD Graphics 505",2.2,19180,NULL
+306,HP,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 7600U 2.8GHz",16,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.28,105228,NULL
+307,Toshiba,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 930M",2.2,55571,NULL
+308,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce 940MX",2.3,43636,HDD
+309,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 520",1.86,24988,NULL
+310,Lenovo,Notebook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.1,53227,NULL
+311,Dell,Ultrabook,13.0,"IPS Panel 4K Ultra HD / Touchscreen 3840x2160","Intel Core i7 8550U 1.8GHz",16,"1TB SSD",1TB," SSD",NULL,Intel,windows," UHD Graphics 620",1.21,133147,NULL
+312,MSI,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",2.8,111835,HDD
+313,Acer,Notebook,16.0,"Full HD 1920x1080","AMD A8-Series 7410 2.2GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon R5",2.23,24988,NULL
+314,Asus,"2 in 1 Convertible",12.0,"Touchscreen 1366x768","Intel Celeron Dual Core N3350 1.1GHz",2,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 500",1.1,14652,NULL
+315,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,AMD,windows," Radeon 530",2.33,44968,HDD
+316,HP,"2 in 1 Convertible",13.0,"IPS Panel 4K Ultra HD / Touchscreen 3840x2160","Intel Core i7 8550U 1.8GHz",16,"1TB SSD",1TB," SSD",NULL,Intel,windows," UHD Graphics 620",1.29,130483,NULL
+317,Lenovo,Notebook,13.0,1366x768,"Intel Celeron Dual Core 3855U 1.6GHz",4,"16GB Flash Storage",16GB," Flash Storage",NULL,Intel,others," HD Graphics 510",1.45,24503,NULL
+318,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.95,52214,NULL
+319,Acer,Notebook,12.0,1366x768,"Intel Pentium Quad Core N3710 1.6GHz",4,"128GB Flash Storage",128GB," Flash Storage",NULL,Intel,windows," HD Graphics 405",1.4,25841,NULL
+320,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.48,68838,NULL
+321,Lenovo,Notebook,17.0,1600x900,"Intel Core i5 7200U 2.5GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 920MX",2.79,31382,NULL
+322,Asus,Notebook,14.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2,58288,NULL
+323,HP,Notebook,16.0,"IPS Panel Full HD 1366x768","Intel Core i7 8550U 1.8GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," UHD Graphics 620",2.1,48059,NULL
+324,Acer,Notebook,16.0,1366x768,"AMD A12-Series 9720P 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon RX 540",2.2,35112,NULL
+325,Lenovo,Notebook,14.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 500",1.44,15558,NULL
+326,Acer,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",6,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",8.23,29251,NULL
+327,Asus,Ultrabook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 940MX",1.7,55939,NULL
+328,HP,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.26,71129,NULL
+329,Dell,Notebook,16.0,"4K Ultra HD / Touchscreen 3840x2160","Intel Core i7 7700HQ 2.8GHz",32,"1TB SSD",1TB," SSD",NULL,Nvidia,windows," GeForce GTX 1050",2.06,140606,NULL
+330,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050 Ti",2.7,63883,HDD
+331,Toshiba,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2.0,50243,NULL
+332,Asus,Notebook,14.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Intel,windows," HD Graphics 620",2,71076,HDD
+333,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 520",1.85,23923,NULL
+334,Asus,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050",2.5,53227,NULL
+335,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7300U 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.48,67559,NULL
+337,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.84,60952,NULL
+338,Asus,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,linux," HD Graphics 500",2,14651,NULL
+339,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 940MX",2,60886,NULL
+340,Dell,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,linux," HD Graphics",2.2,14647,NULL
+341,Lenovo,Notebook,16.0,"Full HD 1920x1080","AMD A12-Series 9720P 3.6GHz",12,"2TB HDD",2TB," HDD",NULL,AMD,windows," Radeon 530",2.2,47899,NULL
+342,HP,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i3 7100U 2.4GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 930MX ",2.1,38148,NULL
+343,Lenovo,"2 in 1 Convertible",14.0,"IPS Panel 4K Ultra HD / Touchscreen 3840x2160","Intel Core i7 8550U 1.8GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.4,111835,NULL
+344,Dell,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.2,84129,NULL
+345,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  2TB HDD",256GB," SSD   ",2TB,Nvidia,windows," GeForce GTX 1050 Ti",2.4,60153,HDD
+346,HP,Notebook,14.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",2,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 400",1.44,14865,NULL
+347,Dell,Ultrabook,16.0,"Full HD 1920x1080","Intel Core i7 8650U 1.9GHz",16,"512GB SSD +  256GB SSD",512GB," SSD   256GB SSD",NULL,Intel,windows," UHD Graphics 620",1.88,85672,NULL
+348,Asus,"2 in 1 Convertible",12.0,"Touchscreen 1366x768","Intel Celeron Dual Core N3350 1.1GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 500",1.5,19980,NULL
+349,Dell,Ultrabook,16.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon 530",0.0002,35325,NULL
+351,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.84,69477,NULL
+352,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.7,75072,HDD
+353,HP,Workstation,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," Quadro M1200",2.6,92615,NULL
+354,Toshiba,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce 930M",2.4,74752,NULL
+355,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"128GB SSD +  2TB HDD",128GB," SSD   ",2TB,AMD,windows," Radeon 530",2.02,51730,HDD
+356,Lenovo,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,NA," HD Graphics 500",2.2,17156,NULL
+357,Dell,Gaming,16.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 1050",2.65,53227,NULL
+358,Dell,Notebook,16.0,"Touchscreen 1366x768","Intel Core i5 7200U 2.5GHz",8,"2TB HDD",2TB," HDD",NULL,Intel,windows," HD Graphics 620",2.36,29697,NULL
+359,Dell,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7300U 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.36,76031,NULL
+360,HP,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",1.86,23390,NULL
+361,Asus,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2,50350,NULL
+362,Lenovo,Notebook,17.0,1600x900,"Intel Core i5 7200U 2.5GHz",6,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 940MX",2.8,38308,HDD
+363,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",1.86,34046,NULL
+364,Lenovo,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,NA," GeForce 920MX ",2.2,26587,NULL
+365,HP,Notebook,16.0,1366x768,"Intel Pentium Quad Core N3710 1.6GHz",8,"2TB HDD",2TB," HDD",NULL,Intel,windows," HD Graphics 405",2.04,20726,NULL
+366,Dell,Notebook,17.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,AMD,windows," Radeon 530",2.8,57809,HDD
+367,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,NA," GeForce GTX 1050",2.4,43104,HDD
+368,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon R7 M445",2.33,47899,NULL
+369,HP,Ultrabook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.36,93240,NULL
+370,Asus,"2 in 1 Convertible",16.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",12,"512GB SSD +  2TB HDD",512GB," SSD   ",2TB,Nvidia,windows," GeForce GT 940MX",2.26,58555,HDD
+371,Acer,Notebook,16.0,1366x768,"AMD A9-Series 9420 3GHz",4,"128GB SSD",128GB," SSD",NULL,AMD,windows," Radeon R5",2.1,22697,NULL
+372,Asus,Gaming,17.0,"IPS Panel Full HD 1920x1080","AMD Ryzen 1700 3GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,AMD,windows," Radeon RX 580",3.25,117163,HDD
+373,Lenovo,Notebook,17.0,1600x900,"AMD A8-Series 7410 2.2GHz",4,"128GB SSD",128GB," SSD",NULL,AMD,windows," Radeon R5",2.6,26054,NULL
+374,Dell,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.62,46301,NULL
+375,HP,Notebook,16.0,"Full HD 1920x1080","AMD A9-Series 9420 3GHz",4,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon R5",1.91,26053,NULL
+376,Lenovo,Netbook,12.0,"IPS Panel 1366x768","Intel Celeron Quad Core N3450 1.1GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 500",1.59,29464,NULL
+377,Dell,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3060 1.60GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 400",1.8,16464,NULL
+378,Asus,Notebook,14.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 500",1.5,15238,NULL
+379,Acer,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,linux," GeForce GTX 1050",2.4,45075,NULL
+380,HP,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",3.35,63456,HDD
+381,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,NA," HD Graphics 520",1.85,21498,NULL
+382,Asus,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.3,88178,HDD
+383,Lenovo,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 940MX",1.5,58555,NULL
+384,Asus,Ultrabook,13.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.1,93181,NULL
+385,Lenovo,Ultrabook,14.0,"IPS Panel 2560x1440","Intel Core i7 7500U 2.7GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.13,121585,NULL
+386,Lenovo,Notebook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i3 7100U 2.4GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",1.5,29251,NULL
+387,Dell,Workstation,16.0,"Full HD 1920x1080","Intel Core i5 6440HQ 2.6GHz",8,"500GB HDD",500GB," HDD",NULL,AMD,windows," FirePro W5130M",2.23,72940,NULL
+388,Dell,Workstation,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6820HQ 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," Quadro M1200",2,113753,NULL
+389,Lenovo,"2 in 1 Convertible",14.0,"Touchscreen 2560x1440","Intel Core i7 7500U 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.42,133680,NULL
+390,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 1050",3,55358,NULL
+391,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050 Ti",3,84768,HDD
+392,Acer,Notebook,16.0,"IPS Panel 1366x768","Intel Core i5 8250U 1.6GHz",12,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce MX130",2.2,36976,NULL
+393,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050 Ti",2.7,71875,NULL
+394,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,linux," Radeon R7 M445",2.33,41498,NULL
+395,HP,Ultrabook,16.0,"Full HD 1920x1080","AMD A9-Series 9420 3GHz",4,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 520",1.91,26587,NULL
+396,Lenovo,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon RX 550",2.1,65511,NULL
+397,Lenovo,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.9,49977,NULL
+398,Dell,Workstation,16.0,"4K Ultra HD / Touchscreen 3840x2160","Intel Core i7 7700HQ 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," Quadro M1200",1.78,144495,NULL
+399,Lenovo,Ultrabook,14.0,"IPS Panel 2560x1440","Intel Core i7 7500U 2.7GHz",16,"1TB SSD",1TB," SSD",NULL,Intel,windows," HD Graphics 620",1.13,139860,NULL
+400,Lenovo,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 500",2.2,16304,NULL
+401,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.9,81465,HDD
+402,Lenovo,Notebook,26.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,AMD,windows," Radeon RX 550",2.1,60979,HDD
+403,Acer,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,linux," GeForce GTX 1050",2.5,46833,NULL
+404,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",2.8,119827,HDD
+405,Asus,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.10,99793,NULL
+406,Toshiba,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 520",1.2,93080,NULL
+407,Dell,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i7 7600U 2.8GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics",1.36,89510,NULL
+408,Lenovo,Notebook,36.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",2.2,21792,NULL
+409,Lenovo,Notebook,12.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",2,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 500",1.15,16221,NULL
+410,Lenovo,Workstation,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," Quadro M1200",2.67,102564,NULL
+411,Lenovo,Ultrabook,14.0,"IPS Panel Full HD 2560x1440","Intel Core i7 7700HQ 2.8GHz",8,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce GT 940MX",1.7,103523,NULL
+412,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon 520",2.1,24988,NULL
+413,Acer,"2 in 1 Convertible",13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.6,42038,NULL
+414,Asus,"2 in 1 Convertible",13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.27,49444,NULL
+415,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,AMD,linux," Radeon R5 M430",2.3,31909,NULL
+416,Dell,Notebook,13.0,1366x768,"Intel Core i3 6006U 2GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",1.65,36710,NULL
+417,HP,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.43,79920,NULL
+418,Dell,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.14,28769,NULL
+419,Lenovo,Ultrabook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon RX 550",1.75,64755,NULL
+420,Lenovo,"2 in 1 Convertible",16.0,"IPS Panel 4K Ultra HD / Touchscreen 3840x2160","Intel Core i7 7700HQ 2.8GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050",2,101179,NULL
+421,Chuwi,Notebook,12.0,"IPS Panel Retina Display 2736x1824","Intel Celeron Quad Core N3450 1.1GHz",6,"64GB Flash Storage",64GB," Flash Storage",NULL,Intel,windows," HD Graphics 500",1.4,23923,NULL
+422,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7820HQ 2.9GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 630",2.31,76031,NULL
+423,Asus,Notebook,36.0,"Full HD 1920x1080","Intel Core i3 7100U 2.4GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,linux," GeForce 940MX",2.3,31808,NULL
+424,Dell,Gaming,27.0,"IPS Panel 2560x1440","Intel Core i7 7820HK 2.9GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",4.42,149131,HDD
+425,Dell,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050 Ti",2.62,61752,HDD
+426,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD +  2TB HDD",256GB," SSD   ",2TB,AMD,windows," Radeon 530",2.02,60867,HDD
+427,Dell,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i7 7600U 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,linux," HD Graphics 620",1.6,58555,NULL
+428,HP,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",12,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",3.35,106507,HDD
+429,Mediacom,"2 in 1 Convertible",12.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Celeron Dual Core N3350 1.1GHz",4,"32GB SSD",32GB," SSD",NULL,Intel,windows," HD Graphics 500",1.16,15931,NULL
+430,Samsung,Netbook,12.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",4,"16GB Flash Storage",16GB," Flash Storage",NULL,Intel,others," HD Graphics 400",1.15,14332,NULL
+431,Lenovo,Notebook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.4,53813,NULL
+432,Lenovo,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i3 7130U 2.7GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",1.7,31915,NULL
+433,Lenovo,Workstation,16.0,"IPS Panel 4K Ultra HD 3840x2160","Intel Core i7 7600U 2.8GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce 940MX",2.3,130270,NULL
+434,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7820HQ 2.9GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," Quadro M2200M",2.5,130483,NULL
+435,Asus,Gaming,17.0,"Full HD 1920x1080","AMD Ryzen 1600 3.2GHz",8,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,AMD,windows," Radeon RX 580",3.2,90310,HDD
+436,HP,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 400",2.1,18488,NULL
+437,Google,Ultrabook,12.0,"Touchscreen 2400x1600","Intel Core i7 7Y75 1.3GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,others," HD Graphics 615",1.1,117163,NULL
+438,Lenovo,Ultrabook,24.0,2560x1440,"Intel Core i7 7500U 2.7GHz",24,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.32,126913,NULL
+439,Asus,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,linux," HD Graphics 620",2,29784,NULL
+440,Lenovo,Notebook,17.0,1600x900,"AMD A6-Series 9220 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R4",2.8,27652,NULL
+441,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",4,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 530",2.2,39907,NULL
+442,Lenovo,Ultrabook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.36,76137,NULL
+443,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Pentium Quad Core N4200 1.1GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 505",2.2,18595,NULL
+444,HP,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.2,58555,HDD
+445,Dell,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7440HQ 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 930MX",1.64,62817,NULL
+446,Acer,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,linux," HD Graphics 620",2.4,23539,NULL
+447,Dell,Workstation,16.0,"Full HD 1920x1080","Intel Xeon E3-1505M V6 3GHz",8,"64GB Flash Storage +  1TB HDD",64GB," Flash Storage   ",1TB,Nvidia,windows," Quadro M620",2.23,106187,HDD
+448,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050",2.2,54758,NULL
+449,Microsoft,Ultrabook,14.0,"Touchscreen 2256x1504","Intel Core i7 7660U 2.5GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," Iris Plus Graphics 640",1.25,137942,NULL
+450,HP,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",8,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",1.91,31382,NULL
+451,Dell,Workstation,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6820HQ 2.7GHz",16,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," Quadro M620",2.17,105228,NULL
+452,HP,Workstation,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7820HQ 2.9GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",2.31,81732,NULL
+453,Lenovo,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.65,71662,NULL
+454,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,AMD,windows," Radeon 530",2.36,52161,HDD
+455,Dell,"2 in 1 Convertible",12.0,"Touchscreen 1366x768","Intel Pentium Quad Core N3710 1.6GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 405",1.47,25521,NULL
+456,Dell,Notebook,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.7GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 1060",4.42,109011,NULL
+457,Microsoft,Ultrabook,14.0,"Touchscreen 2256x1504","Intel Core M m3-7Y30 2.2GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 615",1.252,52694,NULL
+458,Microsoft,Ultrabook,34.0,"Touchscreen 2256x1504","Intel Core i7 7660U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," Iris Plus Graphics 640",1.25,95851,NULL
+459,HP,Notebook,17.0,1600x900,"Intel Core i3 6006U 2GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",2.5,34094,NULL
+460,Acer,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 940MX",2.23,28984,NULL
+461,Acer,Netbook,12.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 400",1.4,23177,NULL
+462,Asus,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.37,39907,NULL
+463,Lenovo,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"512GB SSD",512GB," SSD",NULL,AMD,NA," Radeon R7 M460",1.5,42571,NULL
+464,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7820HQ 2.9GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," Quadro M2200M",2.67,111355,NULL
+465,Asus,Notebook,16.0,1366x768,"Intel Pentium Quad Core N4200 1.1GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 500",2,16197,NULL
+466,Acer,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"500GB HDD",500GB," HDD",NULL,Nvidia,windows," GeForce GTX 940MX",2.2,24988,NULL
+467,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"2TB HDD",2TB," HDD",NULL,AMD,windows," Radeon 530",2.02,40440,NULL
+468,HP,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",12,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 1060",3.78,90523,NULL
+469,Lenovo,Ultrabook,14.0,"IPS Panel Quad HD+ 2560x1440","Intel Core i7 6600U 2.6GHz",12,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.4,98994,NULL
+470,HP,"2 in 1 Convertible",13.0,"IPS Panel 4K Ultra HD / Touchscreen 3840x2160","Intel Core i7 8550U 1.8GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.29,106507,NULL
+471,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"500GB HDD",500GB," HDD",NULL,AMD,windows," FirePro W4190M ",1.9,61485,NULL
+472,Google,Ultrabook,12.0,"Touchscreen 2400x1600","Intel Core i5 7Y57 1.2GHz",8,"128GB SSD",128GB," SSD",NULL,Intel,others," HD Graphics 615",1.1,67932,NULL
+473,Dell,Ultrabook,13.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.42,98134,NULL
+474,Asus,Notebook,16.0,"IPS Panel 4K Ultra HD 3840x2160","Intel Core i7 6700HQ 2.6GHz",12,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Intel,windows," HD Graphics 530",2.06,69211,HDD
+475,Dell,Notebook,14.0,1366x768,"Intel Core i3 6100U 2.3GHz",8,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",1.79,39427,NULL
+476,Dell,Workstation,14.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," Quadro M1200",1.78,128298,NULL
+477,Lenovo,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"180GB SSD",180GB," SSD",NULL,Intel,windows," HD Graphics 620",1.7,72674,NULL
+479,Toshiba,Notebook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.05,89084,NULL
+480,Dell,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce 940MX",2.16,67239,NULL
+481,Dell,Notebook,16.0,1366x768,"Intel Core i3 7100U 2.4GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.18,31254,NULL
+482,HP,Notebook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.49,38681,NULL
+483,Chuwi,Notebook,16.0,"Full HD 1920x1080","Intel Atom x5-Z8350 1.44GHz",4,"64GB Flash Storage",64GB," Flash Storage",NULL,Intel,windows," HD Graphics",1.89,13261,NULL
+484,Lenovo,Notebook,16.0,1366x768,"Intel Core i3 6006U 2.0GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",2.3,30103,NULL
+485,Lenovo,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.75,55891,NULL
+486,Dell,Workstation,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6820HQ 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," Quadro M620",2.17,124569,NULL
+487,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050",2.06,101179,NULL
+488,Lenovo,Ultrabook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.36,95797,NULL
+489,Asus,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",0.91,103896,NULL
+490,Lenovo,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 940MX",2.3,53919,NULL
+491,Toshiba,Ultrabook,13.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",32,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.05,149131,NULL
+492,Asus,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",1.99,71928,HDD
+493,Acer,Notebook,16.0,1366x768,"AMD A10-Series 9620P 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon RX 540",2.2,30849,NULL
+494,Asus,Gaming,17.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 6700HQ 2.6GHz",24,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 965M",4.33,67612,HDD
+495,Lenovo,Ultrabook,13.0,"IPS Panel 1366x768","Intel Core i5 6200U 2.3GHz",8,"180GB SSD",180GB," SSD",NULL,Intel,windows," HD Graphics 520",1.3,58555,NULL
+496,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",2.17,47893,NULL
+497,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i7 7600U 2.8GHz",8,"1TB SSD",1TB," SSD",NULL,Intel,windows," HD Graphics 620",1.48,93187,NULL
+498,Lenovo,Notebook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i3 7100U 2.4GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.4,50563,NULL
+499,Lenovo,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2.3,48538,NULL
+500,Asus,Netbook,12.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",4,"64GB Flash Storage",64GB," Flash Storage",NULL,Intel,windows," HD Graphics 500",1.2,18115,NULL
+501,HP,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 520",1.91,32980,NULL
+502,Lenovo,"2 in 1 Convertible",14.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.4,85195,NULL
+503,Lenovo,Notebook,14.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 500",2.1,15931,NULL
+504,Lenovo,Netbook,12.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",4,"16GB SSD",16GB," SSD",NULL,Intel,others," HD Graphics 400",1.25,14119,NULL
+505,Lenovo,Notebook,13.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.44,50563,NULL
+506,Asus,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Intel,windows," HD Graphics 620",2,65215,HDD
+507,Acer,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce MX150",2.2,32661,NULL
+508,HP,Ultrabook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.34,70489,NULL
+509,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,NA," GeForce GTX 1060",2.4,61219,HDD
+510,Dell,Ultrabook,13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i5 7200U 2.5GHz",8,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",1.29,47899,NULL
+511,Acer,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",4,"500GB HDD",500GB," HDD",NULL,Nvidia,windows," GeForce 940MX",2.2,34046,NULL
+512,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.18,44542,NULL
+513,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",16,"256GB SSD +  2TB HDD",256GB," SSD   ",2TB,AMD,windows," Radeon 530",2.2,64961,HDD
+514,Xiaomi,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",16,"256GB SSD",256GB," SSD",NULL,Nvidia,NA," GeForce MX150",1.95,74589,NULL
+515,Asus,Netbook,12.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",2,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 500",1.1,13054,NULL
+516,HP,Notebook,16.0,"Touchscreen 1366x768","Intel Core i5 8250U 1.6GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," UHD Graphics 620",2.04,27784,NULL
+517,Asus,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",24,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce GTX1080",2.24,158135,NULL
+518,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 930MX",2.04,47366,NULL
+519,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX1050 Ti",3,80133,HDD
+520,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",3.2,74539,HDD
+521,HP,Ultrabook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.32,74539,NULL
+522,Dell,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7300U 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.64,68184,NULL
+523,HP,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",1.63,36710,NULL
+524,Dell,Notebook,17.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,AMD,linux," Radeon 530",2.8,47366,HDD
+525,Lenovo,Notebook,24.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",2.02,71395,NULL
+526,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 920MX",2.2,42571,NULL
+527,Lenovo,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",8,"2TB HDD",2TB," HDD",NULL,Nvidia,NA," GeForce 920MX ",2.2,24456,NULL
+528,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,AMD,windows," Radeon R5 M430",2.3,31169,NULL
+529,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7440HQ 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.9,73367,NULL
+530,Dell,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",4.42,160520,HDD
+531,Toshiba,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",2.0,45821,NULL
+532,Asus,Notebook,16.0,"IPS Panel 4K Ultra HD 3840x2160","Intel Core i7 7500U 2.7GHz",8,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 960M",2,69211,HDD
+533,Mediacom,Notebook,13.0,"IPS Panel Full HD 1920x1080","Intel Celeron Quad Core N3450 1.1GHz",4,"32GB SSD",32GB," SSD",NULL,Intel,windows," HD Graphics 500",1.2,19660,NULL
+534,Asus,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.3,87859,HDD
+535,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7600U 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 930MX",1.93,72940,NULL
+536,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 530",2.2,42486,NULL
+537,HP,Notebook,16.0,"Full HD 1920x1080","Intel Pentium Quad Core N3710 1.6GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 405",1.86,21258,NULL
+538,HP,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",12,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 1060",2.62,95851,NULL
+539,Lenovo,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 940MX",1.87,45768,NULL
+540,Dell,Ultrabook,13.0,"Quad HD+ / Touchscreen 3200x1800","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.2,74539,NULL
+541,Dell,Notebook,14.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",1.6,39207,NULL
+542,HP,Ultrabook,13.0,"IPS Panel Quad HD+ 3200x1800","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.34,61006,NULL
+543,Acer,Gaming,16.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,linux," GeForce GTX 1050",2.4,42517,NULL
+544,Asus,Notebook,16.0,1366x768,"AMD E-Series 7110 1.8GHz",4,"500GB HDD",500GB," HDD",NULL,AMD,windows," Radeon R2 Graphics",2,18595,NULL
+545,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 7100U 2.4GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",2.1,37589,NULL
+546,Lenovo,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",1.87,41825,NULL
+547,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,NA," HD Graphics 520",2.15,24634,NULL
+548,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",1.86,21152,NULL
+549,Lenovo,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.99,92121,NULL
+550,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",2.2,26587,NULL
+551,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.9,59513,NULL
+552,Dell,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",4.42,143803,HDD
+553,HP,Notebook,17.0,1600x900,"Intel Core i3 6006U 2GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 520",2.65,28992,NULL
+554,HP,Notebook,17.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 930MX",2.63,68198,NULL
+555,Asus,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,linux," HD Graphics 500",2,11935,NULL
+556,Mediacom,Notebook,13.0,"IPS Panel Full HD 1920x1080","Intel Atom x5-Z8350 1.44GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics",1.35,13586,NULL
+557,Lenovo,Notebook,17.0,1600x900,"Intel Core i7 7500U 2.7GHz",6,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce 940MX",2.8,50563,HDD
+558,HP,Notebook,16.0,"IPS Panel Full HD 1920x1080","AMD A10-Series A10-9620P 2.5GHz",6,"128GB SSD",128GB," SSD",NULL,AMD,windows," Radeon 530",1.91,30311,NULL
+559,Dell,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R5 M420",2.18,32922,NULL
+560,Acer,"2 in 1 Convertible",12.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Celeron Dual Core N3350 2.0GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 500",1.25,18595,NULL
+561,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 7130U 2.7GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",2.05,33566,NULL
+562,HP,Ultrabook,13.0,"IPS Panel Quad HD+ / Touchscreen 3200x1800","Intel Core M 6Y75 1.2GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 515",1.16,104695,NULL
+563,Lenovo,Notebook,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," Quadro M620M",3.4,159787,NULL
+564,Asus,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.5,44702,HDD
+565,Dell,Ultrabook,13.0,"IPS Panel 4K Ultra HD / Touchscreen 3840x2160","Intel Core i5 8250U 1.6GHz",8,"128GB SSD",128GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.21,85195,NULL
+566,Dell,Notebook,16.0,1366x768,"Intel Core i5 7300U 2.6GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",1.93,51096,NULL
+568,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Pentium Quad Core N4200 1.1GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 505",2.2,18328,NULL
+569,Lenovo,Notebook,14.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",2.02,52747,NULL
+570,HP,Workstation,17.0,1600x900,"Intel Core i5 7440HQ 2.8GHz",8,"500GB HDD",500GB," HDD",NULL,Nvidia,windows," Quadro M1200",3.14,99154,NULL
+571,HP,Notebook,14.0,1366x768,"Intel Pentium Quad Core N3710 1.6GHz",8,"2TB HDD",2TB," HDD",NULL,Intel,windows," HD Graphics 405",1.94,20726,NULL
+572,HP,Notebook,16.0,"IPS Panel Full HD 1920x1080","AMD A9-Series A9-9420 3GHz",6,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 530",1.95,34579,NULL
+573,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2.3,44222,NULL
+574,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",2.05,36497,NULL
+575,Mediacom,Notebook,14.0,"Full HD 1920x1080","Intel Atom x5-Z8350 1.44GHz",4,"32GB SSD",32GB," SSD",NULL,Intel,windows," HD Graphics",1.4,13267,NULL
+576,Toshiba,Ultrabook,14.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.24,99367,NULL
+577,Lenovo,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6820HK 2.7GHz",32,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",4.6,141885,HDD
+578,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7820HK 2.9GHz",16,"512GB SSD +  1TB HDD",512GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",4.14,145401,HDD
+579,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,linux," Radeon R5 M430",2.2,39907,NULL
+580,Mediacom,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Celeron Quad Core N3450 1.1GHz",4,"32GB SSD",32GB," SSD",NULL,Intel,windows," HD Graphics 500",1.45,20726,NULL
+581,Dell,Notebook,16.0,1366x768,"Intel Core i5 7300U 2.6GHz",8,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",1.9,53734,NULL
+582,HP,Notebook,13.0,"Full HD 1920x1080","Intel Core i3 7100U 2.4GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",1.49,38308,NULL
+583,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7600U 2.8GHz",16,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 930MX",1.93,81912,NULL
+584,Dell,Netbook,12.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",4,"16GB Flash Storage",16GB," Flash Storage",NULL,Intel,others," HD Graphics 400",1.26,15718,NULL
+585,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 6820HK 2.7GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 980M",4.5,125155,HDD
+586,HP,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",3.78,79813,HDD
+587,Lenovo,Ultrabook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6600U 2.6GHz",12,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",8.4,89137,NULL
+588,Lenovo,Notebook,16.0,"Touchscreen 1366x768","Intel Core i7 8550U 1.8GHz",12,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.2,32448,NULL
+589,Asus,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.73,94306,HDD
+590,Asus,"2 in 1 Convertible",16.0,"Touchscreen 1366x768","Intel Core i5 7200U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 520",2.2,39374,NULL
+591,Lenovo,Notebook,16.0,"Full HD 1920x1080","AMD A12-Series 9720P 3.6GHz",12,"512GB SSD",512GB," SSD",NULL,AMD,windows," Radeon 530",2.2,50563,NULL
+592,Dell,"2 in 1 Convertible",32.0,"Touchscreen 1366x768","Intel Core M 7Y30 1.0GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 615",1.39,32128,NULL
+593,Samsung,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.5,90523,HDD
+594,Lenovo,Notebook,17.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,NA," HD Graphics 520",2.8,28185,NULL
+595,Lenovo,Notebook,16.0,1366x768,"Intel Core i3 6100U 2.3GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 520",2.29,24456,NULL
+596,Lenovo,"2 in 1 Convertible",13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.37,107892,NULL
+597,Lenovo,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 630",1.7,78535,NULL
+598,Dell,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.34,88978,NULL
+599,Dell,Workstation,16.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," Quadro M620",2.06,93933,NULL
+600,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.84,64948,NULL
+601,HP,Notebook,16.0,1366x768,"Intel Core i3 7100U 2.4GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",2.1,35617,NULL
+602,Acer,Notebook,14.0,"Full HD 1920x1080","Intel Celeron Quad Core N3450 1.1GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 500",1.6,17529,NULL
+603,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 6820HK 2.7GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 970M",4.14,117163,HDD
+604,Dell,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,linux," Radeon R5 M420",2.18,24775,NULL
+605,MSI,Gaming,16.0,"4K Ultra HD 3840x2160","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  2TB HDD",256GB," SSD   ",2TB,Nvidia,windows," GeForce GTX 1060",1.8,122491,HDD
+606,Toshiba,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",2.2,74539,NULL
+607,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",6,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.4,30050,NULL
+608,Lenovo,"2 in 1 Convertible",16.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 630",2,69211,NULL
+609,Acer,Notebook,14.0,1366x768,"Intel Pentium Quad Core N3710 1.6GHz",4,"128GB Flash Storage",128GB," Flash Storage",NULL,Intel,windows," HD Graphics 405",1.6,18595,NULL
+610,Lenovo,Notebook,16.0,"IPS Panel 4K Ultra HD 3840x2160","Intel Xeon E3-1535M v6 3.1GHz",32,"1TB SSD",1TB," SSD",NULL,Nvidia,windows," Quadro M2200M",2.5,261019,NULL
+611,Dell,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",16,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 960<U+039C>",2.59,46834,NULL
+612,Dell,Notebook,16.0,1366x768,"Intel Core i3 6006U 2.0GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,linux," HD Graphics 520",2.18,23651,NULL
+613,Dell,Notebook,16.0,1366x768,"Intel Core i3 6006U 2.0GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,linux," HD Graphics 520",2.25,19128,NULL
+614,Dell,Notebook,16.0,1366x768,"Intel Core i5 7300U 2.6GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,linux," HD Graphics 620",1.93,46300,NULL
+615,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",3,62231,HDD
+617,HP,Ultrabook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.84,74006,NULL
+618,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",2.94,120832,HDD
+619,Acer,"2 in 1 Convertible",12.0,"IPS Panel Touchscreen 1366x768","Intel Celeron Quad Core N3160 1.6GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,others," HD Graphics 400",1.25,20193,NULL
+620,HP,Notebook,14.0,1366x768,"Intel Core i5 7300U 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2.31,59887,NULL
+621,Lenovo,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.65,78055,NULL
+622,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon 530",2.2,41345,NULL
+623,Fujitsu,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2.2,42571,NULL
+624,HP,Notebook,16.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",1.88,49657,NULL
+626,Mediacom,Notebook,14.0,"Full HD 1920x1080","Intel Atom x5-Z8350 1.44GHz",2,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics",1.4,12734,NULL
+627,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,NA," HD Graphics 620",2.2,24935,NULL
+628,Asus,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 7200U 2.5GHz",6,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",1.5,34046,NULL
+630,Asus,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",11.1,101232,NULL
+631,Dell,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050 Ti",2.62,78801,HDD
+632,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.8,44169,NULL
+633,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 920MX ",2.2,30849,NULL
+634,Asus,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 500",2,21259,NULL
+635,Asus,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 1050",1.99,48305,NULL
+636,Dell,Ultrabook,13.0,"Quad HD+ / Touchscreen 3200x1800","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.23,99580,NULL
+637,Lenovo,Notebook,14.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",2,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 400",1.42,13267,NULL
+638,Lenovo,"2 in 1 Convertible",13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.37,93635,NULL
+639,Dell,Notebook,16.0,"4K Ultra HD / Touchscreen 3840x2160","Intel Core i7 7700HQ 2.8GHz",16,"1TB SSD",1TB," SSD",NULL,Nvidia,windows," GeForce GTX 1050",2.06,127819,NULL
+640,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050M",2.5,59088,HDD
+641,HP,Notebook,17.0,1600x900,"AMD A9-Series 9420 3GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R5",2.6,27754,NULL
+642,Lenovo,Ultrabook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.14,130536,NULL
+643,Asus,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,NA," GeForce GTX 1050 Ti",2.5,62284,NULL
+644,Acer,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",2.4,23976,NULL
+645,Lenovo,Notebook,14.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics",1.43,14599,NULL
+646,Acer,Ultrabook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," Graphics 620",1.8,48964,NULL
+647,Razer,Gaming,14.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 1060",1.95,138475,NULL
+648,Toshiba,Notebook,13.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.2,64629,NULL
+649,Lenovo,Ultrabook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.36,84396,NULL
+650,Asus,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6820HK 2.7GHz",32,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce GTX 1080",3.8,149131,NULL
+651,Acer,Gaming,16.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,linux," GeForce GTX 1050",2.4,37776,NULL
+652,Dell,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.2,77251,NULL
+653,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050 Ti",2.2,63499,HDD
+654,HP,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,NA," HD Graphics 520",1.86,19442,NULL
+655,Toshiba,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",2.0,56690,NULL
+656,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 530",6.2,48964,NULL
+657,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",16,"256GB SSD +  2TB HDD",256GB," SSD   ",2TB,AMD,windows," Radeon 530",2.2,60473,HDD
+658,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 960",3.31,63723,HDD
+659,Dell,Gaming,17.0,"IPS Panel 4K Ultra HD 3840x2160","Intel Core i7 7700HQ 2.8GHz",32,"512GB SSD +  1TB HDD",512GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",4.42,167692,HDD
+660,Dell,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 6300U 2.4GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.56,65481,NULL
+661,Lenovo,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 500",2.2,22324,NULL
+662,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",2.2,28505,NULL
+663,HP,Notebook,16.0,1920x1080,"Intel Core i3 6006U 2GHz",6,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R5 M430",2.04,28718,NULL
+664,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.7,79215,HDD
+665,Toshiba,Notebook,16.0,1366x768,"Intel Core i3 6100U 2.1GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",2.1,26533,NULL
+667,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon 530",2.1,39694,NULL
+668,Toshiba,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2.0,67026,NULL
+669,Acer,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,linux," HD Graphics 520",2.1,21951,NULL
+670,Microsoft,Ultrabook,14.0,"Touchscreen 2256x1504","Intel Core i7 7600U 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," Iris Plus Graphics 640",1.252,99519,NULL
+671,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,AMD,windows," Radeon R5 M430",1.90,43580,HDD
+672,Lenovo,"2 in 1 Convertible",13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.3,55092,NULL
+673,Lenovo,Notebook,36.0,1366x768,"AMD E-Series E2-9000 2.2GHz",4,"128GB SSD",128GB," SSD",NULL,AMD,windows," Radeon R2 Graphics",2.2,18595,NULL
+674,HP,"2 in 1 Convertible",14.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i3 7100U 2.4GHz",4,"128GB SSD",128GB," SSD",NULL,Nvidia,windows," GeForce 940MX",1.63,37243,NULL
+675,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.4,68944,HDD
+676,Asus,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.1,60473,NULL
+677,HP,"2 in 1 Convertible",12.0,"Touchscreen 1366x768","Intel Celeron Dual Core N3350 1.1GHz",8,"64GB Flash Storage",64GB," Flash Storage",NULL,Intel,others," HD Graphics 500",1.4,26374,NULL
+678,LG,Ultrabook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.09,122491,NULL
+679,Acer,Gaming,16.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",16,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050 Ti",2.5,69211,NULL
+680,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050",2.2,53168,NULL
+681,Asus,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 500",1.86,22324,NULL
+682,Dell,Gaming,16.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",3.21,109277,HDD
+683,HP,Notebook,17.0,"IPS Panel Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon R5 520",2.5,37243,NULL
+684,Lenovo,"2 in 1 Convertible",13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 8550U 1.8GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.19,79867,NULL
+685,Dell,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7820HK 2.9GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",3.49,149917,HDD
+686,HP,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,AMD,windows," Radeon 520",1.86,32640,NULL
+687,Dell,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R5 M430",2.2,29073,NULL
+688,HP,Notebook,17.0,"IPS Panel Full HD 1920x1080","AMD A10-Series 9600P 2.4GHz",6,"2TB HDD",2TB," HDD",NULL,AMD,windows," Radeon R7 M440",2.65,30316,NULL
+689,Lenovo,Notebook,16.0,1366x768,"Intel Celeron Dual Core 3855U 1.6GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 510",2.1,16943,NULL
+690,Acer,Notebook,14.0,1366x768,"Intel Celeron Dual Core 3855U 1.6GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,others," HD Graphics 510",1.45,19980,NULL
+691,Lenovo,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.7,37243,NULL
+692,HP,Workstation,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"500GB HDD",500GB," HDD",NULL,Nvidia,windows," Quadro M1200",3.14,101658,NULL
+693,Lenovo,"2 in 1 Convertible",14.0,"Touchscreen 2560x1440","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.42,137995,NULL
+694,Toshiba,Notebook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.5,51841,NULL
+695,Acer,Netbook,12.0,1366x768,"Intel Celeron Dual Core N3050 1.6GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics",1.4,14332,NULL
+696,Lenovo,"2 in 1 Convertible",14.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.38,93187,NULL
+697,Asus,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core M M3-6Y30 0.9GHz",4,"64GB Flash Storage",64GB," Flash Storage",NULL,Intel,others," HD Graphics 515",1.2,35644,NULL
+698,Toshiba,Ultrabook,13.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 6500U 2.5GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 520",1.36,100007,NULL
+700,Dell,Gaming,16.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 1050",2.56,43636,NULL
+701,Lenovo,Notebook,16.0,"Full HD 1920x1080","AMD A9-Series 9420 2.9GHz",4,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 530",2.2,21259,NULL
+702,Lenovo,Notebook,16.0,1366x768,"AMD A12-Series 9720P 3.6GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R7",2.2,22857,NULL
+703,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"1TB HDD +  1TB HDD",1TB," HDD    HDD",NULL,Intel,windows," HD Graphics 620",2.1,33111,NULL
+704,Lenovo,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,NA," HD Graphics 520",1.90,23976,NULL
+705,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2.18,42358,NULL
+706,Acer,"2 in 1 Convertible",13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i5 8250U 1.6GHz",1,"256GB SSD",256GB," SSD",NULL,Intel,windows," UHD Graphics 620",1.6,53227,NULL
+707,Lenovo,Workstation,16.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," Quadro M520M",2.18,98834,NULL
+708,Lenovo,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 6300HQ 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.8,63456,NULL
+709,HP,Notebook,17.0,"IPS Panel Full HD 1920x1080","AMD A10-Series 9620P 2.5GHz",6,"2TB HDD",2TB," HDD",NULL,AMD,windows," Radeon 530",2.71,34899,NULL
+710,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050 Ti",2.5,66547,HDD
+711,Dell,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7440HQ 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,linux," GeForce 930MX",1.64,58022,NULL
+712,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,linux," HD Graphics 620",1.98,38681,NULL
+713,Asus,Notebook,14.0,"Full HD 1920x1080","Intel Celeron Dual Core N3350 1.1GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 500",1.5,15877,NULL
+714,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7300U 2.6GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.93,76012,NULL
+715,Lenovo,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 920MX",1.87,45665,NULL
+716,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7300U 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.9,62817,NULL
+717,Lenovo,Notebook,16.0,1366x768,"AMD A6-Series 7310 2GHz",4,"500GB HDD",500GB," HDD",NULL,AMD,windows," Radeon R4",2.19,15877,NULL
+718,Mediacom,Notebook,14.0,"IPS Panel Full HD 1920x1200","Intel Atom Z8350 1.92GHz",4,"32GB HDD",32GB," HDD",NULL,Intel,windows," HD Graphics 400",1.4,14119,NULL
+719,HP,Notebook,17.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 930MX",2.63,63936,NULL
+720,Lenovo,Ultrabook,14.0,"IPS Panel Quad HD+ 2560x1440","Intel Core i7 6500U 2.5GHz",64,64GB,64GB,,NULL,Intel,windows," HD Graphics 520",1.17,89864,NULL
+721,HP,"2 in 1 Convertible",13.0,"IPS Panel Touchscreen 1366x768","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.58,44574,NULL
+722,Lenovo,Ultrabook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.32,79867,NULL
+723,Dell,Gaming,17.0,"4K Ultra HD 3840x2160","Intel Core i7 7700HQ 2.8GHz",32,"1TB SSD +  1TB HDD",1TB," SSD    HDD",NULL,Nvidia,windows," GeForce GTX 1070",4.36,194973,NULL
+724,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050 Ti",2.7,71847,HDD
+725,Lenovo,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,NA," HD Graphics 620",1.9,26102,NULL
+727,Dell,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core i3 7100U 2.4GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",1.71,34579,NULL
+728,Dell,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,linux," Radeon R7 M445",2.32,31410,NULL
+729,HP,Notebook,16.0,"Full HD 1920x1080","AMD A9-Series 9420 3GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon 520",2.1,26054,NULL
+730,Acer,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",4.2,103097,HDD
+731,Dell,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",12,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.25,34579,NULL
+732,HP,Notebook,16.0,"Full HD 1920x1080","AMD A9-Series A9-9420 3GHz",6,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,AMD,windows," Radeon 520",2.1,34632,HDD
+733,Acer,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",2.4,29784,NULL
+734,Lenovo,Notebook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.44,51149,NULL
+735,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",1.85,41505,NULL
+736,HP,Workstation,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," Quadro M2200",2.6,128884,NULL
+737,Dell,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 8250U 1.6GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," UHD Graphics 620",1.55,35112,NULL
+738,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",1.8,111594,HDD
+739,Acer,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",2.4,21887,NULL
+740,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce 940MX",2.0,64309,HDD
+741,Dell,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",2,35431,NULL
+742,Toshiba,Notebook,14.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.25,81785,NULL
+743,Lenovo,"2 in 1 Convertible",14.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.7,53227,NULL
+744,Lenovo,Workstation,16.0,"IPS Panel 4K Ultra HD 3840x2160","Intel Core i7 7600U 2.8GHz",16,"1TB SSD",1TB," SSD",NULL,Nvidia,windows," Quadro M520M",2.5,175771,NULL
+745,Acer,Notebook,14.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",2,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,others," HD Graphics 400",1.68,17582,NULL
+746,Samsung,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",16,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",0.81,87859,NULL
+748,Dell,Notebook,14.0,1366x768,"Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.6,60031,NULL
+749,HP,Workstation,17.0,"IPS Panel Full HD 1920x1080","Intel Xeon E3-1535M v5 2.9GHz",16,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," Quadro M2000M",3,233846,NULL
+750,Lenovo,Netbook,12.0,"Touchscreen 1366x768","Intel Celeron Dual Core N3060 1.6GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 400",1.4,25308,NULL
+751,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 6300U 2.4GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.84,101232,NULL
+752,Asus,Notebook,16.0,1366x768,"Intel Core i5 6300HQ 2.3GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,NA," GeForce GTX 950M",2.45,30849,NULL
+754,Asus,Notebook,16.0,1366x768,"Intel Core i7 7500U 2.7GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2.37,45283,NULL
+755,Lenovo,"2 in 1 Convertible",13.0,"IPS Panel Quad HD+ / Touchscreen 3200x1800","Intel Core i5 6260U 1.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 540",1.3,63883,NULL
+756,HP,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.2,58555,HDD
+757,HP,Workstation,16.0,"Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," Quadro M1000M",2.59,83170,NULL
+758,Dell,Gaming,16.0,"IPS Panel 4K Ultra HD 3840x2160","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",4.42,152860,HDD
+759,Acer,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2.1,31915,NULL
+760,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.5,55837,HDD
+761,Dell,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i7 7600U 2.8GHz",16,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.18,99048,NULL
+762,Google,Ultrabook,12.0,"Touchscreen 2400x1600","Intel Core i5 7Y57 1.2GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,others," HD Graphics 615",1.1,83064,NULL
+763,Asus,Ultrabook,13.0,"IPS Panel Quad HD+ 3200x1800","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.2,60153,NULL
+764,Dell,Notebook,13.0,1366x768,"Intel Core i3 6006U 2GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",1.65,45235,NULL
+765,Acer,Notebook,13.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",1.6,34898,NULL
+766,Asus,Notebook,17.0,1366x768,"Intel Pentium Quad Core N4200 1.1GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 920MX",2.8,25060,NULL
+767,Dell,Gaming,16.0,"IPS Panel Touchscreen / 4K Ultra HD 3840x2160","Intel Core i7 6700HQ 2.6GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 960M",2.72,58555,HDD
+768,Samsung,Ultrabook,13.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.31,85195,NULL
+769,Acer,Notebook,16.0,1366x768,"Intel Pentium Quad Core N4200 1.1GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,linux," HD Graphics 505",2.1,15877,NULL
+770,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",16,64GB,64GB,,NULL,AMD,windows," Radeon R7 M445",2.3,62938,NULL
+771,Samsung,"2 in 1 Convertible",15.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",16,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 540",1.71,95851,NULL
+772,Toshiba,Notebook,14.0,"IPS Panel 1366x768","Intel Core i5 6200U 2.3GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",1.75,54346,NULL
+773,Dell,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 1050",2.62,58555,NULL
+775,Asus,"2 in 1 Convertible",16.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",12,"2TB HDD",2TB," HDD",NULL,Nvidia,windows," GeForce 940MX",2.3,44702,NULL
+776,Lenovo,Notebook,16.0,"4K Ultra HD 3840x2160","Intel Core i7 6820HQ 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," Quadro M2000M",2.5,126274,NULL
+777,Acer,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i3 7100U 2.4GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",1.8,33886,NULL
+778,Razer,Gaming,14.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce GTX 1060",1.95,154459,NULL
+779,Asus,Notebook,16.0,1920x1080,"Intel Pentium Dual Core N4200 1.1GHz",8,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 505",2,31004,NULL
+780,Dell,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",32,"1TB SSD +  1TB HDD",1TB," SSD    HDD",NULL,Nvidia,windows," GeForce GTX 1070M",4.42,191211,NULL
+781,Asus,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",4.3,125208,HDD
+782,Toshiba,Ultrabook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6600U 2.6GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce 930M",1.47,93986,NULL
+783,Lenovo,Notebook,16.0,1366x768,"Intel Celeron Quad Core N3710 1.6GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,NA," HD Graphics 405",2.2,17529,NULL
+784,Lenovo,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.7,122491,NULL
+785,MSI,Gaming,14.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",1.6,100752,HDD
+786,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.2,58022,HDD
+787,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 1050",2.4,53227,NULL
+788,Acer,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",4.2,122491,HDD
+789,Dell,Gaming,16.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050",2.62,52481,NULL
+790,Asus,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX1060",2.24,71342,HDD
+791,Vero,Notebook,14.0,1920x1080,"Intel Celeron Dual Core N3350 1.1GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 500",1.22,10811,NULL
+792,Lenovo,"2 in 1 Convertible",13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.37,104962,NULL
+793,Lenovo,"2 in 1 Convertible",16.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon R7 M460",2.08,51096,NULL
+794,Apple,Ultrabook,12.0,"IPS Panel Retina Display 2304x1440","Intel Core M 1.2GHz",8,"512GB Flash Storage",512GB," Flash Storage",NULL,Intel,macos," HD Graphics 5300",0.920,62071,NULL
+795,Lenovo,"2 in 1 Convertible",14.0,"IPS Panel Touchscreen 2560x1440","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.42,124142,NULL
+796,Asus,Notebook,14.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 500",1.63,15931,NULL
+797,Dell,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",8,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",1.95,43157,NULL
+798,Lenovo,"2 in 1 Convertible",14.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.38,71875,NULL
+799,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon R5 M420X",2,39374,NULL
+800,HP,Workstation,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," Quadro M2200",3.14,110018,NULL
+801,Asus,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2.37,58555,NULL
+802,Dell,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.29,79867,NULL
+803,Dell,Notebook,16.0,"4K Ultra HD / Touchscreen 3840x2160","Intel Core i5 7300HQ 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050",2.06,93187,NULL
+804,Dell,Netbook,12.0,1366x768,"Intel Pentium Quad Core N4200 1.1GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 505",1.63,39640,NULL
+805,HP,Netbook,13.0,1366x768,"Intel Core i5 7300U 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.26,74006,NULL
+806,Toshiba,Notebook,16.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",2.1,41558,NULL
+807,HP,Notebook,16.0,1366x768,"AMD A12-Series 9700P 2.5GHz",8,"2TB HDD",2TB," HDD",NULL,AMD,windows," Radeon R7 Graphics",2.04,33513,NULL
+808,Dell,Gaming,16.0,"4K Ultra HD 3840x2160","Intel Core i7 7700HQ 2.8GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050 Ti",2.62,89457,NULL
+809,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 920M",2.4,32448,NULL
+810,HP,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",12,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon RX 580",3.74,93187,NULL
+811,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"512GB SSD +  1TB HDD",512GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",2.9,128671,HDD
+812,Samsung,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",0.81,79867,NULL
+813,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GT 940MX",1.98,51202,NULL
+814,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon R5 M420",2.18,42081,NULL
+815,Lenovo,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.32,99048,NULL
+816,Razer,Ultrabook,13.0,"IPS Panel 4K Ultra HD / Touchscreen 3840x2160","Intel Core i7 7500U 2.5GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.29,95851,NULL
+817,HP,Netbook,12.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",4,"16GB Flash Storage",16GB," Flash Storage",NULL,Intel,others," HD Graphics 400",1.23,20513,NULL
+818,Dell,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",4.36,133467,HDD
+819,Dell,Notebook,14.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",1.76,40226,NULL
+820,Lenovo,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",2.1,26102,NULL
+821,Toshiba,Ultrabook,14.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",1.25,58075,NULL
+822,Lenovo,Ultrabook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.13,133147,NULL
+823,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050",2.4,63883,NULL
+824,Lenovo,Ultrabook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB Flash Storage",256GB," Flash Storage",NULL,Intel,windows," HD Graphics 620",1.13,99900,NULL
+825,Toshiba,Notebook,14.0,1366x768,"Intel Pentium Dual Core 4405U 2.1GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 510",1.75,26587,NULL
+826,Asus,"2 in 1 Convertible",13.0,"Touchscreen / Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.1,72354,NULL
+827,Dell,Notebook,14.0,1366x768,"Intel Core i3 6006U 2GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",1.76,31169,NULL
+828,Acer,Netbook,12.0,"IPS Panel 1366x768","Intel Celeron Dual Core N3060 1.6GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,others," HD Graphics 400",1.35,18914,NULL
+829,Acer,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i3 7100U 2.4GHz",8,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",1.5,32980,NULL
+830,Razer,Gaming,17.0,"4K Ultra HD / Touchscreen 3840x2160","Intel Core i7 7820HK 2.9GHz",32,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce GTX 1080",3.49,292987,NULL
+831,Lenovo,Ultrabook,14.0,"IPS Panel Quad HD+ 2560x1440","Intel Core i7 6600U 2.6GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 520",1.1,111835,NULL
+832,Asus,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,linux," GeForce 920",2.1,27652,NULL
+833,Lenovo,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.7,63190,NULL
+834,Lenovo,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7300U 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.32,87912,NULL
+835,Dell,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",3.21,147832,HDD
+836,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",2.9,128884,HDD
+837,Toshiba,Notebook,16.0,1366x768,"Intel Core i3 7100U 2.4GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",2.0,35644,NULL
+838,Lenovo,Notebook,14.0,1366x768,"Intel Celeron Quad Core N3160 1.6GHz",4,"16GB Flash Storage",16GB," Flash Storage",NULL,Intel,others," HD Graphics 400",1.5,17316,NULL
+839,Asus,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"128GB HDD",128GB," HDD",NULL,Intel,windows," HD Graphics 620",2.3,31435,NULL
+840,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",16,"512GB SSD +  1TB HDD",512GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.73,95851,HDD
+841,Dell,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",32,"512GB SSD +  1TB HDD",512GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",4.42,163724,HDD
+842,HP,Notebook,17.0,1600x900,"Intel Core i5 7200U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 930MX",2.63,48485,NULL
+843,Dell,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",8,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",2.18,38041,NULL
+844,HP,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 520",1.54,99634,NULL
+845,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",4,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon R5 M420",2.18,39374,NULL
+846,HP,"2 in 1 Convertible",12.0,"Touchscreen 1366x768","Intel Celeron Dual Core N3350 1.1GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,others," HD Graphics 500",1.4,32767,NULL
+847,Asus,Ultrabook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce 940M",1.45,54665,NULL
+848,HP,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.28,121319,NULL
+849,HP,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 520",1.54,78215,NULL
+850,HP,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,NA," HD Graphics 400",1.86,15931,NULL
+851,Asus,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.1,101179,HDD
+852,Dell,Notebook,17.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,linux," Radeon R7 M445",2.83,46087,NULL
+853,Lenovo,Ultrabook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GT 940MX",1.96,101392,NULL
+854,Asus,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 930MX",2.3,41931,NULL
+855,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",1.9,50350,NULL
+856,Asus,Notebook,16.0,1366x768,"Intel Pentium Quad Core N4200 1.1GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 505",2,23923,NULL
+857,HP,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 7600U 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.28,136344,NULL
+858,Dell,Notebook,13.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 6200U 2.3GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 520",1.62,34579,NULL
+859,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2.0GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,NA," HD Graphics 520",2.2,24988,NULL
+860,Lenovo,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.3,45323,NULL
+861,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7300U 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon R7 M465",1.84,71875,NULL
+862,Toshiba,Notebook,13.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",1.05,68465,NULL
+863,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,NA," GeForce GTX 1050",2.5,54186,NULL
+864,Dell,Ultrabook,13.0,"Quad HD+ / Touchscreen 3200x1800","Intel Core i7 7660U 2.5GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," Iris Plus Graphics 640",1.29,119347,NULL
+865,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",2.07,48485,NULL
+866,Toshiba,Ultrabook,13.0,1366x768,"Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.2,58342,NULL
+867,Lenovo,"2 in 1 Convertible",13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.37,103896,NULL
+868,Acer,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.56,48059,NULL
+869,Dell,Workstation,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," Quadro M620",2.23,94732,NULL
+870,Lenovo,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",2.38,56210,NULL
+871,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,NA," Radeon R5 M430",2.2,25521,NULL
+872,Toshiba,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2.0,73953,NULL
+873,Lenovo,Notebook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i3 7100U 2.4GHz",4,"180GB SSD",180GB," SSD",NULL,Intel,windows," HD Graphics 620",1.44,39161,NULL
+874,Samsung,Ultrabook,15.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",16,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 940MX",1.23,98515,NULL
+875,Dell,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i7 7600U 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.6,90043,NULL
+876,Asus,Notebook,16.0,1366x768,"Intel Pentium Quad Core N4200 1.1GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,linux," HD Graphics 505",2,21258,NULL
+877,Xiaomi,Ultrabook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 940MX",1.28,49817,NULL
+878,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce 940MX",2.18,48618,HDD
+879,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2.04,44702,NULL
+880,HP,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 7200U 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.28,90576,NULL
+881,HP,"2 in 1 Convertible",16.0,"Touchscreen 1366x768","Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",2.3,36486,NULL
+882,Asus,Notebook,14.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 500",1.65,18541,NULL
+883,Lenovo,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 940MX",2.2,35644,NULL
+884,Dell,Notebook,16.0,1366x768,"Intel Pentium Quad Core N3710 1.6GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics",2.2,19660,NULL
+885,HP,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 7200U 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.28,95851,NULL
+886,Dell,Notebook,16.0,1366x768,"Intel Core i3 6006U 2.0GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,linux," Radeon R5 M420X",2.18,24280,NULL
+887,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",12,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.2,72988,HDD
+888,Acer,Netbook,12.0,"IPS Panel 1366x768","Intel Celeron Dual Core N3060 1.6GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,others," HD Graphics 400",1.25,15824,NULL
+889,Lenovo,Notebook,17.0,1600x900,"AMD A4-Series 7210 2.2GHz",4,"500GB HDD",500GB," HDD",NULL,AMD,windows," Radeon R3",2.8,20193,NULL
+890,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",1.95,67399,NULL
+891,HP,"2 in 1 Convertible",13.0,"Quad HD+ / Touchscreen 3200x1800","Intel Core i7 7500U 2.7GHz",16,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.42,74539,NULL
+892,Samsung,Ultrabook,15.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.17,90523,NULL
+893,Lenovo,Ultrabook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.32,95851,NULL
+894,MSI,Gaming,17.0,"IPS Panel 4K Ultra HD 3840x2160","Intel Core i7 6700HQ 2.6GHz",16,"512GB SSD +  2TB HDD",512GB," SSD   ",2TB,Nvidia,windows," GeForce GTX 1060",2.43,141139,HDD
+895,Toshiba,Notebook,13.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.05,78588,NULL
+896,Dell,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,linux," GeForce GTX 1050Ti",2.62,49497,NULL
+897,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 930MX",2.04,47952,NULL
+898,Dell,Notebook,16.0,1366x768,"Intel Core i3 6006U 2.0GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R5 M420X",2.18,32714,NULL
+899,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7300U 2.6GHz",8,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",1.9,49817,NULL
+900,Dell,"2 in 1 Convertible",13.0,"Quad HD+ / Touchscreen 3200x1800","Intel Core i7 7Y75 1.3GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 615",1.24,107258,NULL
+901,Asus,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6820HK 2.7GHz",32,"256GB SSD +  256GB SSD",256GB,SSD,NULL,Nvidia,windows," GeForce GTX 980M",3.58,68145,NULL
+902,Dell,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 7Y75 1.3GHz",16,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 615",1.22,87859,NULL
+903,Lenovo,Ultrabook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB Flash Storage",256GB," Flash Storage",NULL,Intel,windows," HD Graphics 620",1.13,109171,NULL
+904,Lenovo,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.95,104588,NULL
+905,LG,Ultrabook,16.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.08,111835,NULL
+906,HP,Netbook,13.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.26,79014,NULL
+907,Acer,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Celeron Dual Core 3205U 1.5GHz",4,"16GB Flash Storage",16GB," Flash Storage",NULL,Intel,others," HD Graphics",2.20,19128,NULL
+908,Lenovo,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 6300HQ 2.3GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 960M",2.6,42038,HDD
+909,LG,Ultrabook,14.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",0.98,101179,NULL
+910,Dell,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7440HQ 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.6,64202,NULL
+911,HP,Ultrabook,13.0,"4K Ultra HD / Touchscreen 3840x2160","Intel Core M 6Y75 1.2GHz",8,"240GB SSD",240GB," SSD",NULL,Intel,windows," HD Graphics 515",1.09,165168,NULL
+912,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",6,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 940MX",2.2,42038,NULL
+913,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 930MX",2.04,54292,NULL
+914,Acer,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 7100U 2.4GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.4,26587,NULL
+915,Lenovo,Notebook,13.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",1.44,46940,NULL
+916,HP,Notebook,13.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.49,51149,NULL
+917,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050 Ti",2.7,85195,HDD
+918,Dell,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050 Ti",2.6,71875,HDD
+919,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.2,59669,HDD
+920,Dell,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R5 M420",2.18,36496,NULL
+921,HP,Ultrabook,16.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon R7 M365X",1.84,69104,NULL
+924,Lenovo,"2 in 1 Convertible",13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i5 7200U 2.5GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.37,97236,NULL
+925,Dell,Notebook,16.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",1.95,38889,NULL
+926,Lenovo,Ultrabook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.36,87912,NULL
+927,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",2.31,62071,NULL
+928,Dell,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.18,37725,NULL
+929,HP,Notebook,14.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",1.95,61219,NULL
+930,Lenovo,Notebook,16.0,1366x768,"Intel Pentium Quad Core N4200 1.1GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 505",2.2,16464,NULL
+931,HP,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",1.26,84129,NULL
+932,HP,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,NA," HD Graphics 400",1.86,15393,NULL
+933,Lenovo,"2 in 1 Convertible",13.0,"IPS Panel Quad HD+ / Touchscreen 3200x1800","Intel Core i7 6560U 2.2GHz",16,"1TB SSD",1TB," SSD",NULL,Intel,windows," Iris Graphics 540",1.3,95851,NULL
+934,Toshiba,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",1.47,58874,NULL
+935,HP,Netbook,13.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.26,88924,NULL
+936,Dell,Notebook,16.0,1366x768,"Intel Core i3 6006U 2.0GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 520",2.18,29762,NULL
+937,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.2,63883,HDD
+939,Dell,Gaming,17.0,2560x1440,"Intel Core i7 6820HK 2.7GHz",16,"512GB SSD +  1TB HDD",512GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1080",4.36,146946,HDD
+940,HP,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i5 6300HQ 2.3GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 965M",2.75,74539,HDD
+941,Asus,Notebook,17.0,1600x900,"Intel Pentium Quad Core N3710 1.6GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 920MX",2.8,28238,NULL
+942,Acer,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",2.23,32980,NULL
+943,Toshiba,Notebook,16.0,1366x768,"Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",2.2,59620,NULL
+944,Lenovo,"2 in 1 Convertible",11.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core M m7-6Y75 1.2GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 515",1.1,69211,NULL
+945,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","AMD FX 8800P 2.1GHz",16,"512GB SSD +  1TB HDD",512GB," SSD   ",1TB,AMD,windows," Radeon R9 M385",2.5,53227,HDD
+946,Dell,Ultrabook,13.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics",1.36,78439,NULL
+947,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,NA," GeForce 920MX",2.2,36497,NULL
+948,Dell,Notebook,17.0,1600x900,"Intel Core i3 6006U 2.0GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R7 M445",2.36,35112,NULL
+949,Acer,Notebook,14.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,others," HD Graphics 400",1.68,18595,NULL
+950,HP,Workstation,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6820HQ 2.7GHz",8,"8GB SSD",8GB," SSD",NULL,Nvidia,windows," Quadro M1000M",2.0,119827,NULL
+951,Dell,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i7 7600U 2.8GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.36,94572,NULL
+952,Toshiba,Notebook,13.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.2,77789,NULL
+953,Asus,"2 in 1 Convertible",13.0,"Full HD 1920x1080","Intel Core M M7-6Y75 1.2GHz",8,"64GB Flash Storage",64GB," Flash Storage",NULL,Intel,others," HD Graphics 515",1.2,61752,NULL
+954,Lenovo,Ultrabook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6600U 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.7,79333,NULL
+955,Dell,Gaming,17.0,"IPS Panel 4K Ultra HD 3840x2160","Intel Core i7 7700HQ 2.8GHz",16,"512GB SSD +  1TB HDD",512GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",4.36,168045,HDD
+956,Dell,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 7Y54 1.2GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 615",1.24,101179,NULL
+957,HP,"2 in 1 Convertible",12.0,"Touchscreen 1366x768","Intel Pentium Quad Core N4200 1.1GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 505",1.45,41292,NULL
+958,Dell,Ultrabook,13.0,"Quad HD+ 3200x1800","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.3,67559,NULL
+959,Acer,"2 in 1 Convertible",12.0,"IPS Panel Touchscreen 1366x768","Intel Celeron Dual Core N3060 1.6GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,others," HD Graphics 400",1.25,20726,NULL
+960,Toshiba,Notebook,13.0,"Full HD 1920x1080","Intel Core i5 6300U 2.4GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.2,81785,NULL
+961,Lenovo,Ultrabook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7300U 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.36,93773,NULL
+962,Acer,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",12,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 950M",2.4,53760,HDD
+963,Toshiba,Ultrabook,13.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.1,95371,NULL
+964,HP,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.50GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 930MX",2.04,45102,NULL
+965,Dell,Notebook,16.0,1366x768,"Intel Core i3 6006U 2.0GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,linux," Radeon R5 M430",2.25,24808,NULL
+966,Dell,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",1.9,43956,NULL
+967,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 7100U 2.4GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",2.04,36497,NULL
+968,Dell,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",32,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",4.42,167779,HDD
+969,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",6,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 920MX",2.4,37030,NULL
+970,Dell,"2 in 1 Convertible",13.0,"Quad HD+ / Touchscreen 3200x1800","Intel Core i7 7Y75 1.3GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 615",1.22,101179,NULL
+971,Dell,Ultrabook,14.0,"Touchscreen 2560x1440","Intel Core i7 6600U 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.5,104588,NULL
+972,Dell,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",32,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",4.42,149184,HDD
+973,Toshiba,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.95,62870,NULL
+974,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.73,109219,HDD
+975,HP,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.70GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce 930MX",2.04,52161,HDD
+976,Lenovo,Notebook,14.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"508GB Hybrid",508GB," Hybrid",NULL,Intel,windows," HD Graphics 520",1.70,53387,NULL
+977,Asus,"2 in 1 Convertible",16.0,"4K Ultra HD / Touchscreen 3840x2160","Intel Core i7 7500U 2.7GHz",16,"512GB SSD +  2TB HDD",512GB," SSD   ",2TB,Nvidia,windows," GeForce GTX 950M",2.3,95851,HDD
+979,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050 Ti",2.99,93187,HDD
+980,Dell,"2 in 1 Convertible",16.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",12,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",2.19,69211,NULL
+981,Toshiba,Notebook,13.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",1.2,63670,NULL
+982,Lenovo,Notebook,16.0,"Full HD 1920x1080","AMD A12-Series 9720P 3.6GHz",6,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 530",2.2,29251,NULL
+983,Fujitsu,Notebook,16.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",2.3,34579,NULL
+984,Toshiba,Notebook,14.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",1.75,48751,NULL
+985,Dell,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,AMD,windows," Radeon R5 M430",2.25,31915,NULL
+986,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.04,42944,NULL
+987,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.5,63350,HDD
+988,Dell,Notebook,16.0,1366x768,"Intel Core i7 7500U 2.7GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R7 M445",2.36,39907,NULL
+989,Dell,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620 ",1.6,59620,NULL
+990,HP,Netbook,13.0,"Full HD 1920x1080","Intel Core M 6Y75 1.2GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 515",0.97,101658,NULL
+991,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,AMD,windows," Radeon 520",2.1,26587,HDD
+992,Lenovo,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,NA," HD Graphics 500",1.9,14419,NULL
+993,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",2.3,71875,NULL
+995,Asus,Notebook,13.0,"Quad HD+ 3200x1800","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.4,61272,NULL
+996,HP,Ultrabook,13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.11,71875,NULL
+997,Acer,Notebook,16.0,1366x768,"Intel Pentium Quad Core N4200 1.1GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 505",2.4,20246,NULL
+998,Asus,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050 Ti",2.5,95851,HDD
+999,HP,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.48,111302,NULL
+1000,Acer,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.7,67133,HDD
+1001,HP,Notebook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.34,63350,NULL
+1002,Dell,Notebook,16.0,1366x768,"Intel Core i3 7100U 2.4GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 620",2.18,29144,NULL
+1003,HP,Notebook,14.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",1.64,41505,NULL
+1004,Toshiba,Notebook,13.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",1.2,63670,NULL
+1005,HP,Notebook,14.0,1366x768,"Intel Core i5 6300U 2.4GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.48,58607,NULL
+1006,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.95,64202,NULL
+1007,HP,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i7 6600U 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.43,77203,NULL
+1008,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 930MX",1.64,55905,NULL
+1009,HP,Notebook,14.0,1366x768,"Intel Core i3 7100U 2.4GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",1.64,36444,NULL
+1010,Dell,Gaming,16.0,"Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"1.0TB Hybrid",1.0TB," Hybrid",NULL,Nvidia,windows," GeForce GTX 1050",2.65,50563,NULL
+1011,HP,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",1.26,81998,NULL
+1012,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.48,84715,NULL
+1013,HP,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.54,100551,NULL
+1014,HP,Notebook,13.0,1366x768,"Intel Core i3 7100U 2.4GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",1.49,42624,NULL
+1015,Toshiba,Notebook,13.0,1366x768,"Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.5,64469,NULL
+1016,HP,Notebook,16.0,1366x768,"Intel Core i3 7100U 2.4GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2.04,41025,NULL
+1017,Lenovo,Notebook,17.0,"IPS Panel 4K Ultra HD 3840x2160","Intel Core i7 6820HQ 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," Quadro 3000M",2.4,158135,NULL
+1018,Toshiba,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.47,79387,NULL
+1019,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.43,118761,NULL
+1020,Dell,"2 in 1 Convertible",16.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i3 6100U 2.3GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 520",2.08,42410,NULL
+1021,Toshiba,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.2,84715,NULL
+1022,HP,Notebook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.11,61219,NULL
+1023,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 930MX",1.64,63160,NULL
+1024,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 6300U 2.4GHz",8,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",2.09,55754,NULL
+1025,HP,Ultrabook,13.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.26,83064,NULL
+1026,HP,Notebook,14.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",2.31,63350,NULL
+1027,HP,Notebook,14.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",1.95,56477,NULL
+1028,Dell,Ultrabook,13.0,"Quad HD+ / Touchscreen 3200x1800","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.29,86527,NULL
+1029,HP,Notebook,17.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 930MX",2.63,57542,NULL
+1030,HP,Notebook,14.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.64,51841,NULL
+1031,Acer,Notebook,16.0,1366x768,"AMD A9-Series 9420 3GHz",6,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R5",2.1,21792,NULL
+1032,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.7,63499,HDD
+1033,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.95,63670,NULL
+1034,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.84,65481,NULL
+1035,HP,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.26,71875,NULL
+1036,HP,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",2.04,39534,NULL
+1037,Toshiba,Ultrabook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6600U 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.47,91908,NULL
+1038,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 6300U 2.4GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",2.09,56634,NULL
+1039,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.64,53840,NULL
+1040,Lenovo,"2 in 1 Convertible",16.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 6500U 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.8,45128,NULL
+1041,Vero,Notebook,14.0,1366x768,"Intel Atom X5-Z8350 1.44GHz",2,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 400",1.45,11231,NULL
+1042,Toshiba,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",16,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 930M",2.4,75924,NULL
+1043,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",2.3,55923,NULL
+1044,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",1.54,53280,NULL
+1045,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 6300U 2.4GHz",8,"256GB SSD +  500GB HDD",256GB," SSD   500GB HDD",NULL,Intel,windows," HD Graphics 520",1.84,112066,NULL
+1046,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.43,78268,NULL
+1047,MSI,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6820HK 2.7GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 980M",3.78,82352,HDD
+1048,Lenovo,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 980M",4.6,122011,HDD
+1049,Asus,Netbook,12.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",4,"16GB Flash Storage",16GB," Flash Storage",NULL,Intel,others," HD Graphics 400",1.2,15339,NULL
+1050,Lenovo,Notebook,14.0,"IPS Panel 2560x1440","Intel Core i7 6600U 2.6GHz",16,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.1,139594,NULL
+1051,HP,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 940MX",1.91,52161,NULL
+1052,Dell,"2 in 1 Convertible",16.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i5 7200U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2.3,58288,NULL
+1053,HP,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2.04,52161,NULL
+1054,Dell,Ultrabook,13.0,"Quad HD+ / Touchscreen 3200x1800","Intel Core i7 7500U 2.7GHz",16,"1TB SSD",1TB," SSD",NULL,Intel,windows," HD Graphics 620",1.2,120093,NULL
+1055,HP,Notebook,16.0,1366x768,"Intel Core i3 6100U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",2.31,37570,NULL
+1056,HP,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,NA," HD Graphics 620",1.96,26587,NULL
+1057,Acer,Notebook,16.0,1366x768,"AMD A8-Series 7410 2.2GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R5",2.4,23923,NULL
+1058,Dell,"2 in 1 Convertible",13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",12,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.6,69211,NULL
+1059,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.94,96916,HDD
+1061,Asus,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",16,"1TB HDD",1TB," HDD",NULL,Nvidia,NA," GeForce GTX 965M",4,53173,NULL
+1062,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics",2.25,29784,NULL
+1063,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",16,"2TB HDD",2TB," HDD",NULL,AMD,windows," Radeon R7 M445",2.32,52747,NULL
+1064,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",1.8,102777,HDD
+1065,Dell,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.29,77682,NULL
+1066,Asus,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6820HK 2.7GHz",64,"1TB SSD",1TB," SSD",NULL,Nvidia,windows," GeForce GTX 980 ",3.58,211788,NULL
+1067,Dell,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.62,42518,NULL
+1068,Dell,Gaming,16.0,"4K Ultra HD 3840x2160","Intel Core i7 6700HQ 2.6GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 970M",3.21,70809,HDD
+1069,Apple,Ultrabook,12.0,"IPS Panel Retina Display 2304x1440","Intel Core M 1.1GHz",8,"256GB Flash Storage",256GB," Flash Storage",NULL,Intel,macos," HD Graphics 515",0.920,69264,NULL
+1070,Dell,Notebook,16.0,1366x768,"Intel Core i3 6100U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",2.06,25680,NULL
+1071,HP,Notebook,16.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",2.31,63883,NULL
+1072,HP,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.26,63883,NULL
+1073,HP,Notebook,13.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.49,58075,NULL
+1074,Lenovo,Ultrabook,13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.3,91295,NULL
+1075,Lenovo,Notebook,17.0,1600x900,"Intel Core i5 6200U 2.3GHz",8,"1.0TB HDD",1.0TB," HDD",NULL,AMD,windows," Radeon R5 M330",3.0,35112,NULL
+1076,Lenovo,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 6300HQ 2.3GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 950M",2.3,52055,NULL
+1077,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",3.78,133147,HDD
+1078,Lenovo,Notebook,16.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",2.1,28771,NULL
+1079,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",2.31,50083,NULL
+1080,Lenovo,Ultrabook,13.0,"IPS Panel Touchscreen 2560x1440","Intel Core M 6Y75 1.2GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 515",0.99,74539,NULL
+1081,Lenovo,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6820HK 2.7GHz",32,"512GB SSD +  1.0TB Hybrid",512GB," SSD   ","1.0TB Hybrid",Nvidia,windows," GeForce GTX 980M",4.6,172627,Hybrid
+1082,Lenovo,"2 in 1 Convertible",10.0,"IPS Panel Touchscreen 1920x1200","Intel Atom x5-Z8550 1.44GHz",4,"64GB Flash Storage",64GB," Flash Storage",NULL,Intel,windows," HD Graphics 400",0.69,34433,NULL
+1083,HP,Ultrabook,13.0,"IPS Panel 4K Ultra HD 3840x2160","Intel Core i7 7500U 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.3,109171,NULL
+1084,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2.18,39960,NULL
+1085,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",1.54,54931,NULL
+1086,HP,Workstation,16.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," FirePro W4190M",1.9,79654,NULL
+1087,Lenovo,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"180GB SSD",180GB," SSD",NULL,Intel,windows," HD Graphics 520",1.7,63883,NULL
+1088,HP,Notebook,13.0,"Quad HD+ 3200x1800","Intel Pentium Dual Core 4405Y 1.5GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,others," HD Graphics 515",1.29,32767,NULL
+1089,Acer,Notebook,16.0,1366x768,"AMD A8-Series 7410 2.2GHz",4,"500GB HDD",500GB," HDD",NULL,AMD,windows," Radeon R5",2.4,20619,NULL
+1090,Dell,Notebook,16.0,1366x768,"Intel Pentium Quad Core N3700 1.6GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,linux," HD Graphics",2.2,20965,NULL
+1091,HP,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,NA," HD Graphics 520",1.86,18434,NULL
+1092,Asus,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.7,85195,HDD
+1093,Dell,Ultrabook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i5 8250U 1.6GHz",4,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 530",1.4,43602,NULL
+1094,HP,Netbook,13.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",2.4,85195,NULL
+1095,Acer,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 950M",2.4,42571,HDD
+1096,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R7 M445",2.36,34035,NULL
+1097,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce GTX 965M",2.6,85195,NULL
+1098,HP,Notebook,16.0,1366x768,"Intel Pentium Quad Core N3710 1.6GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 405",1.96,26640,NULL
+1099,Asus,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 980M",4.3,122491,HDD
+1100,Dell,Ultrabook,13.0,1366x768,"Intel Core i3 6100U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",1.5,60481,NULL
+1101,Dell,Ultrabook,13.0,1366x768,"Intel Core i3 6100U 2.3GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",1.5,62176,NULL
+1102,Acer,Notebook,16.0,1366x768,"Intel Celeron Dual Core 3205U 1.5GHz",4,"16GB SSD",16GB," SSD",NULL,Intel,others," HD Graphics",2.20,11136,NULL
+1103,HP,Workstation,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,windows," FirePro W6150M",3.0,154459,NULL
+1104,Lenovo,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce GTX 1050 Ti",2.4,63883,NULL
+1105,Dell,Ultrabook,13.0,1366x768,"Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.5,75290,NULL
+1106,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 960M",2.9,80516,HDD
+1107,Lenovo,"2 in 1 Convertible",16.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i5 6200U 2.3GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",2.1,46194,NULL
+1108,HP,Notebook,16.0,"Full HD 1920x1080","AMD A6-Series 9220 2.5GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R4",2.1,21205,NULL
+1109,Asus,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 960M",2.59,71342,HDD
+1110,HP,Notebook,13.0,"Quad HD+ / Touchscreen 3200x1800","Intel Core M 6Y54 1.1GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 515",1.16,90523,NULL
+1111,Dell,Notebook,16.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,AMD,windows," Radeon R5 M315",2.24,40980,NULL
+1112,Lenovo,Notebook,16.0,1366x768,"Intel Core i3 6006U 2.0GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",2.1,22857,NULL
+1113,HP,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 520",1.16,104908,NULL
+1114,Lenovo,"2 in 1 Convertible",10.0,"IPS Panel Touchscreen 1920x1200","Intel Atom x5-Z8550 1.44GHz",4,"64GB Flash Storage",64GB," Flash Storage",NULL,Intel,others," HD Graphics 400",0.69,29251,NULL
+1115,Dell,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i7 7560U 2.4GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," Iris Plus Graphics 640",1.23,73473,NULL
+1116,Lenovo,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6820HK 2.7GHz",16,"256GB SSD +  1.0TB Hybrid",256GB," SSD   ","1.0TB Hybrid",Nvidia,windows," GeForce GTX 980M",4.6,146519,Hybrid
+1117,Razer,Ultrabook,13.0,"Touchscreen / 4K Ultra HD 3840x2160","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.25,54825,NULL
+1118,Toshiba,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.05,118601,NULL
+1119,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 960M",3.52,69929,HDD
+1120,Vero,Notebook,13.0,"Full HD 1920x1080","Intel Atom X5-Z8350 1.44GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 400",1.35,10443,NULL
+1121,HP,Notebook,13.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.16,90043,NULL
+1122,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.43,80613,NULL
+1123,Dell,Notebook,16.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,linux," HD Graphics 520",2.09,27899,NULL
+1124,Asus,Notebook,16.0,1366x768,"Intel Core i3 7100U 2.4GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2,23177,NULL
+1125,Lenovo,"2 in 1 Convertible",14.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.8,88924,NULL
+1126,Lenovo,"2 in 1 Convertible",10.0,"IPS Panel Touchscreen 1920x1200","Intel Atom x5-Z8550 1.44GHz",4,"64GB Flash Storage",64GB," Flash Storage",NULL,Intel,windows," HD Graphics 400",0.69,25521,NULL
+1127,HP,Ultrabook,13.0,1366x768,"Intel Core i5 6300U 2.4GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.26,100966,NULL
+1128,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,NA," GeForce GTX 1060",2.4,52694,HDD
+1129,HP,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i5 6300HQ 2.3GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",3.35,60153,HDD
+1130,HP,Notebook,16.0,1366x768,"Intel Core i7 7500U 2.7GHz",8,"2TB HDD",2TB," HDD",NULL,Intel,windows," HD Graphics 620",2.04,33513,NULL
+1131,Lenovo,"2 in 1 Convertible",14.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 6600U 2.6GHz",8,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," Quadro M500M",1.8,109244,NULL
+1132,Asus,Notebook,14.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 500",1.5,14812,NULL
+1133,HP,Ultrabook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.84,40067,NULL
+1134,Acer,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 940MX",2.23,32820,NULL
+1135,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",16,"1.0TB Hybrid",1.0TB," Hybrid",NULL,AMD,windows," Radeon R7 M360",2.5,58555,NULL
+1136,HP,Workstation,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," Quadro M3000M",3,210424,NULL
+1137,Dell,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R7 M445",2.5,41772,NULL
+1138,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 6820HQ 2.7GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 980M",3.78,127819,HDD
+1139,HP,Ultrabook,16.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.88,115709,NULL
+1140,Lenovo,"2 in 1 Convertible",14.0,"IPS Panel Touchscreen 2560x1440","Intel Core i7 6600U 2.6GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 520",2.8,130003,NULL
+1141,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.4,60888,HDD
+1142,HP,"2 in 1 Convertible",13.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 6300U 2.4GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.48,86793,NULL
+1143,HP,Workstation,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," Quadro M1000M",2.59,118761,NULL
+1144,HP,"2 in 1 Convertible",13.0,"Touchscreen 2560x1440","Intel Core i7 6600U 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.48,95851,NULL
+1145,HP,Workstation,16.0,"Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," Quadro M1000M",2.0,101179,NULL
+1146,HP,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i7 6500U 2.50GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.26,122381,NULL
+1147,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 940MX",2.18,53807,NULL
+1148,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.88,84129,NULL
+1149,Lenovo,"2 in 1 Convertible",14.0,"IPS Panel Touchscreen 2560x1440","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.27,124622,NULL
+1150,Lenovo,Notebook,16.0,1366x768,"Intel Core i3 6006U 2.0GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,NA," HD Graphics 520",1.9,18062,NULL
+1151,HP,Notebook,16.0,1366x768,"AMD E-Series 7110 1.8GHz",4,"500GB HDD",500GB," HDD",NULL,AMD,windows," Radeon R2 Graphics",1.86,15824,NULL
+1152,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,NA," Radeon R5 M330",2.32,31915,NULL
+1153,Dell,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 1050Ti",2.62,63883,NULL
+1154,Dell,Notebook,16.0,"IPS Panel Touchscreen / 4K Ultra HD 3840x2160","Intel Core i5 6300HQ 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 960M",2.04,119916,NULL
+1155,HP,Notebook,16.0,"Full HD 1920x1080","AMD A6-Series A6-9220 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 520",1.91,25515,NULL
+1156,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050 Ti",2.7,79536,HDD
+1157,Lenovo,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i7 6600U 2.6GHz",12,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 520",1.4,122491,NULL
+1158,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"1.0TB Hybrid",1.0TB," Hybrid",NULL,AMD,windows," Radeon R5 M330",2.5,42011,NULL
+1159,HP,"2 in 1 Convertible",13.0,"Touchscreen 2560x1440","Intel Core i7 6600U 2.6GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 520",1.48,108744,NULL
+1160,Lenovo,Ultrabook,14.0,"Full HD 1920x1080","Intel Core i7 6600U 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.7,79867,NULL
+1161,MSI,Gaming,14.0,"Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 970M",1.7,94252,HDD
+1162,HP,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 1050",2.62,47899,NULL
+1163,Lenovo,Notebook,16.0,1366x768,"Intel Core i3 6006U 2.0GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 520",2.2,24456,NULL
+1164,HP,Notebook,16.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,NA," HD Graphics 520",2.1,25414,NULL
+1165,Dell,Gaming,16.0,"4K Ultra HD 3840x2160","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050 Ti",2.62,79813,HDD
+1166,Lenovo,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.95,74059,NULL
+1167,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 920MX ",2.2,24935,NULL
+1168,HP,Notebook,14.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",2,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 400",1.44,13267,NULL
+1169,MSI,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 1050",2.2,44702,NULL
+1170,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.96,36177,NULL
+1171,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 8550U 1.8GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," UHD Graphics 620",2.1,61752,NULL
+1172,Asus,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3050 1.6GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics",2.2,19660,NULL
+1173,Lenovo,Notebook,16.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,NA," HD Graphics 520",2.1,21205,NULL
+1174,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,NA," GeForce 940MX",2.2,37776,NULL
+1175,Asus,Notebook,14.0,"Full HD 1920x1080","Intel Core i3 7100U 2.4GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2,40972,NULL
+1176,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",4,"1.0TB Hybrid",1.0TB," Hybrid",NULL,Intel,windows," HD Graphics 520",2.32,43956,NULL
+1177,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce GTX 960",3.31,69530,NULL
+1178,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 970M",1.91,114732,HDD
+1179,HP,Notebook,16.0,1366x768,"Intel Core i3 6100U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",2.07,34632,NULL
+1180,Lenovo,"2 in 1 Convertible",14.0,"IPS Panel Touchscreen 2560x1440","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.36,87219,NULL
+1181,Lenovo,Ultrabook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",6,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 920M",1.54,44276,NULL
+1182,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Nvidia,linux," GeForce GT 940MX",1.98,47686,NULL
+1183,Acer,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3350 2GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 500",2.1,17742,NULL
+1184,HP,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",6,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 960M",2.18,42571,NULL
+1185,Asus,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",8,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 960M",2.591,48432,HDD
+1186,Dell,"2 in 1 Convertible",16.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",2.09,62817,NULL
+1187,Acer,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",4,"256GB SSD",256GB," SSD",NULL,Nvidia,windows," GeForce 940MX",2.23,36816,NULL
+1188,Dell,Ultrabook,13.0,"Quad HD+ / Touchscreen 3200x1800","Intel Core i5 6300U 2.4GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,linux," HD Graphics 520",1.23,58555,NULL
+1189,Acer,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",4.2,138475,HDD
+1190,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7300HQ 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 1050",2.4,43636,NULL
+1191,Samsung,"2 in 1 Convertible",12.0,"IPS Panel Touchscreen 2400x1600","Samsung Cortex A72&A53 2.0GHz",4,"32GB Flash Storage",32GB," Flash Storage",NULL,ARM,others," Mali T860 MP4",1.15,35112,NULL
+1192,HP,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",1.86,25841,NULL
+1193,Apple,Ultrabook,12.0,"IPS Panel Retina Display 2304x1440","Intel Core M 1.1GHz",8,"256GB Flash Storage",256GB," Flash Storage",NULL,Intel,macos," HD Graphics 5300",0.920,61965,NULL
+1194,Dell,"2 in 1 Convertible",13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.6,63883,NULL
+1195,HP,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",12,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.21,70703,HDD
+1196,Lenovo,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,AMD,NA," Radeon R5 M430",1.9,19607,NULL
+1197,Asus,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",16,"512GB SSD +  1TB HDD",512GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 980M",4.3,114552,HDD
+1198,Acer,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3350 2GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,linux," HD Graphics 500",2.1,14492,NULL
+1199,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.43,109165,HDD
+1200,Dell,Notebook,16.0,1366x768,"Intel Core i3 6006U 2.0GHz",4,"128GB SSD",128GB," SSD",NULL,AMD,windows," Radeon R7 M440",2.3,26587,NULL
+1201,Lenovo,Notebook,16.0,1366x768,"Intel Core i7 6500U 2.5GHz",8,"500GB HDD",500GB," HDD",NULL,Nvidia,NA," GeForce 920MX",2.2,33513,NULL
+1203,Dell,Ultrabook,13.0,"Quad HD+ / Touchscreen 3200x1800","Intel Core i7 7500U 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.2,142790,NULL
+1204,Asus,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 1060",2.2,62284,NULL
+1205,Dell,Notebook,16.0,"Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon R7 M445",2.36,47366,NULL
+1206,HP,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.91,30849,NULL
+1207,Lenovo,Notebook,16.0,1366x768,"AMD E-Series 9000 2.2GHz",4,"500GB HDD",500GB," HDD",NULL,AMD,windows," Radeon R2 Graphics",2.2,15931,NULL
+1208,Acer,Notebook,17.0,1600x900,"Intel Core i3 6006U 2.0GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 940MX",3.3,33513,NULL
+1209,Asus,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",2.2,130483,HDD
+1210,Apple,Ultrabook,12.0,"IPS Panel Retina Display 2304x1440","Intel Core M 1.2GHz",8,"512GB Flash Storage",512GB," Flash Storage",NULL,Intel,macos," HD Graphics 515",0.920,68145,NULL
+1211,Asus,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.2,93187,HDD
+1212,MSI,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.43,103842,HDD
+1213,Dell,"2 in 1 Convertible",16.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",2.191,53227,NULL
+1214,Asus,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.9,103843,HDD
+1215,Acer,Netbook,12.0,1366x768,"Intel Celeron Dual Core 3205U 1.5GHz",2,"32GB SSD",32GB," SSD",NULL,Intel,others," HD Graphics",1.3,9271,NULL
+1216,Acer,Notebook,17.0,1600x900,"Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce 940MX",3.3,31861,NULL
+1217,Lenovo,Notebook,17.0,1600x900,"Intel Core i5 7200U 2.5GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,NA," HD Graphics 620",2.8,28718,NULL
+1218,Lenovo,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 960<U+039C>",2.6,67772,HDD
+1219,Acer,"2 in 1 Convertible",14.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 7Y75 1.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 615",1.2,61219,NULL
+1220,Lenovo,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6600U 2.6GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",2.3,81465,NULL
+1221,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.2,78647,HDD
+1222,HP,Notebook,16.0,"Full HD 1920x1080","AMD A12-Series 9720P 2.7GHz",6,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon 530",2.1,28185,NULL
+1223,Dell,Ultrabook,13.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 6300U 2.4GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.26,91288,NULL
+1224,Dell,"2 in 1 Convertible",15.0,"Full HD / Touchscreen 1920x1080","Intel Core i3 7100U 2.4GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",2.08,27120,NULL
+1225,Asus,Notebook,16.0,1366x768,"Intel Pentium Quad Core N3710 1.6GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 405",2.65,16464,NULL
+1226,Dell,Ultrabook,13.0,"Quad HD+ / Touchscreen 3200x1800","Intel Core i7 7500U 2.7GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 620",1.29,78695,NULL
+1227,Dell,Notebook,16.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,linux," HD Graphics 520",2.18,27805,NULL
+1228,Lenovo,Gaming,16.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 6700HQ 2.6GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 960M",2.6,54825,HDD
+1229,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1050",2.2,61219,HDD
+1230,Lenovo,Netbook,13.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 6500U 2.50GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 520",1.3,87912,NULL
+1231,Razer,Gaming,14.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"1TB SSD",1TB," SSD",NULL,Nvidia,windows," GeForce GTX 1060",1.95,186427,NULL
+1232,Dell,Notebook,16.0,"Touchscreen 1366x768","Intel Core i3 7100U 2.4GHz",8,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.3,24989,NULL
+1233,MSI,Gaming,17.0,"Full HD 1920x1080","Intel Core i7 7700HQ 2.8GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1060",2.7,85141,HDD
+1234,Apple,Ultrabook,12.0,1366x768,"Intel Core i5 1.6GHz",4,"256GB Flash Storage",256GB," Flash Storage",NULL,Intel,macos," HD Graphics 6000",1.08,51096,NULL
+1235,HP,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6006U 2GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 520",2.1,25468,NULL
+1236,HP,Ultrabook,14.0,2560x1440,"Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.54,117120,NULL
+1237,Dell,Notebook,16.0,1366x768,"Intel Core i5 6200U 2.3GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",2.24,39267,NULL
+1238,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 960M",2.3,62284,HDD
+1239,Lenovo,Notebook,13.0,"IPS Panel Full HD 1920x1080","Intel Core i7 7500U 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 620",1.4,79867,NULL
+1240,Lenovo,Notebook,16.0,"Full HD 1920x1080","AMD A12-Series 9720P 3.6GHz",6,"256GB SSD",256GB," SSD",NULL,AMD,windows," Radeon 530",2.2,31839,NULL
+1241,Asus,Ultrabook,13.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.45,68198,NULL
+1242,Acer,Notebook,16.0,1366x768,"Intel Core i3 6006U 2.0GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,linux," HD Graphics 520",2.4,19277,NULL
+1243,Dell,"2 in 1 Convertible",17.0,"Full HD / Touchscreen 1920x1080","Intel Core i7 7500U 2.7GHz",16,"512GB SSD",512GB," SSD",NULL,Nvidia,windows," GeForce 940MX",2.77,95851,NULL
+1244,HP,Notebook,14.0,"Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",4,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.54,58607,NULL
+1246,Dell,Notebook,14.0,1366x768,"Intel Core i5 7200U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 620",1.6,46620,NULL
+1247,Asus,Gaming,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",16,"256GB SSD +  1TB HDD",256GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 1070",2.34,123876,HDD
+1248,Lenovo,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i5 7200U 2.5GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,NA," HD Graphics 620",2.3,30529,NULL
+1249,Dell,"2 in 1 Convertible",13.0,"Quad HD+ / Touchscreen 3200x1800","Intel Core i5 7Y54 1.2GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 615",1.24,96597,NULL
+1250,Dell,Notebook,16.0,1366x768,"Intel Pentium Quad Core N3710 1.6GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,linux," HD Graphics",2.2,17263,NULL
+1251,HP,Notebook,16.0,1366x768,"AMD A6-Series 9220 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,AMD,windows," Radeon R4 Graphics",1.86,21259,NULL
+1252,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i3 6100U 2.3GHz",6,"128GB SSD",128GB," SSD",NULL,Nvidia,windows," GeForce 920MX",2.4,30316,NULL
+1253,Lenovo,Notebook,14.0,"IPS Panel Full HD 1920x1080","Intel Core i5 6200U 2.3GHz",8,"256GB SSD",256GB," SSD",NULL,Intel,windows," HD Graphics 520",1.9,57116,NULL
+1254,Dell,Notebook,16.0,1366x768,"Intel Pentium Quad Core N3700 1.6GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics",2.2,23656,NULL
+1255,Asus,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3350 1.1GHz",4,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 500",2,18062,NULL
+1256,Asus,Gaming,17.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",16,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 970M",4.0,101232,HDD
+1257,Dell,Notebook,16.0,1366x768,"Intel Core i3 6006U 2GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics 520",2.29,26107,NULL
+1258,Lenovo,Notebook,16.0,"Full HD 1920x1080","Intel Core i7 6500U 2.5GHz",8,"1.0TB Hybrid",1.0TB," Hybrid",NULL,AMD,windows," Radeon R5 M330",2.32,47686,NULL
+1259,MSI,Gaming,16.0,"Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",8,"128GB SSD +  1TB HDD",128GB," SSD   ",1TB,Nvidia,windows," GeForce GTX 960M",2.4,65481,HDD
+1260,Lenovo,"2 in 1 Convertible",14.0,"Full HD / Touchscreen 1920x1080","Intel Core i5 6200U 2.3GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",1.8,44383,NULL
+1261,Asus,Ultrabook,13.0,"IPS Panel Full HD 1920x1080","Intel Core M 6Y30 0.9GHz",8,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 515",1.2,38841,NULL
+1262,Dell,Notebook,16.0,1366x768,"Intel Core i3 7100U 2.4GHz",6,"1TB HDD",1TB," HDD",NULL,Intel,windows," HD Graphics 620",2.3,24456,NULL
+1263,Acer,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",4,"500GB HDD",500GB," HDD",NULL,Intel,linux," HD Graphics 400",2.4,15398,NULL
+1264,Dell,Notebook,16.0,1366x768,"Intel Celeron Dual Core N3050 1.6GHz",2,"500GB HDD",500GB," HDD",NULL,Intel,windows," HD Graphics",2.20,20193,NULL
+1265,Lenovo,Notebook,16.0,"IPS Panel Full HD 1920x1080","Intel Core i7 6700HQ 2.6GHz",8,"1TB HDD",1TB," HDD",NULL,Nvidia,windows," GeForce GTX 960M",2.6,47899,NULL
+1266,HP,Notebook,16.0,"Full HD 1920x1080","AMD A9-Series 9410 2.9GHz",6,"1.0TB Hybrid",1.0TB," Hybrid",NULL,AMD,windows," Radeon R7 M440",2.04,29303,NULL
+1267,Dell,Notebook,16.0,1366x768,"Intel Core i7 7500U 2.7GHz",8,"1TB HDD",1TB," HDD",NULL,AMD,linux," Radeon R5 M430",2.3,42943,NULL
+1268,HP,Netbook,12.0,1366x768,"Intel Celeron Dual Core N3060 1.6GHz",2,"32GB Flash Storage",32GB," Flash Storage",NULL,Intel,windows," HD Graphics 400",1.17,11136,NULL
+1269,Asus,Notebook,16.0,1366x768,"Intel Core i7 6500U 2.5GHz",4,"500GB HDD",500GB," HDD",NULL,Nvidia,windows," GeForce 920M",2.2,38379,NULL
+1270,Lenovo,"2 in 1 Convertible",14.0,"IPS Panel Full HD / Touchscreen 1920x1080","Intel Core i7 6500U 2.5GHz",4,"128GB SSD",128GB," SSD",NULL,Intel,windows," HD Graphics 520",1.8,33993,NULL
+1271,Lenovo,"2 in 1 Convertible",13.0,"IPS Panel Quad HD+ / Touchscreen 3200x1800","Intel Core i7 6500U 2.5GHz",16,"512GB SSD",512GB," SSD",NULL,Intel,windows," HD Graphics 520",1.3,79867,NULL
+1272,Lenovo,Notebook,14.0,1366x768,"Intel Celeron Dual Core N3050 1.6GHz",2,"64GB Flash Storage",64GB," Flash Storage",NULL,Intel,windows," HD Graphics",1.5,12201,NULL
+1273,HP,Notebook,16.0,1366x768,"Intel Core i7 6500U 2.5GHz",6,"1TB HDD",1TB," HDD",NULL,AMD,windows," Radeon R5 M330",2.19,40706,NULL
