@@ -2,6 +2,9 @@
 
 This project involves cleaning a dataset of laptops, which includes steps such as backing up the table, removing unnecessary columns, handling missing values, removing duplicates, and transforming columns into more useful formats for analysis.
 
+## Before cleaning data 
+![Before Cleaning Data](./before_cleaning_data.png)
+
 ## Table of Contents
 
 1. [Step 1: Creating Backup](#step-1-creating-backup)
