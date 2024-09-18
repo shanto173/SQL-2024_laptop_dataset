@@ -2,8 +2,12 @@
 
 This project involves cleaning a dataset of laptops, which includes steps such as backing up the table, removing unnecessary columns, handling missing values, removing duplicates, and transforming columns into more useful formats for analysis.
 
-## Before cleaning data 
-![Before Cleaning Data](./before_cleaning_data.png)
+## Before Cleaning data 
+![Before Cleaning Data](https://github.com/shanto173/SQL-2024/blob/main/before_cleanign_data.png)
+
+## After Cleaning data
+
+![Before Cleaning Data](https://github.com/shanto173/SQL-2024/blob/main/After_cleaned_data.png)
 
 ## Table of Contents
 
