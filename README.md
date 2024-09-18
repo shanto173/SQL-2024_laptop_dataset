@@ -51,7 +51,10 @@ WHERE TABLE_SCHEMA = 'data_cleaning_project' AND table_name = 'laptop';
 ```
 ### Step 4: Dropping Non-important Columns
 The column Unnamed: 0 is irrelevant, so I dropped it:
-```sql ALTER TABLE laptop DROP COLUMN `Unnamed: 0`;```
+```sql
+ALTER TABLE laptop DROP COLUMN `Unnamed: 0`;
+
+```
 ### Step 5: Dropping Rows with Null Values
 Identify and delete rows where all relevant columns are null:
 
