@@ -2,6 +2,21 @@
 
 This project involves cleaning a dataset of laptops, which includes steps such as backing up the table, removing unnecessary columns, handling missing values, removing duplicates, and transforming columns into more useful formats for analysis.
 
+## Table of Contents
+
+1. [Step 1: Creating Backup](#step-1-creating-backup)
+2. [Step 2: Checking the Number of Rows and Columns](#step-2-checking-the-number-of-rows-and-columns)
+3. [Step 3: Checking Memory Usage](#step-3-checking-memory-usage)
+4. [Step 4: Dropping Non-important Columns](#step-4-dropping-non-important-columns)
+5. [Step 5: Dropping Rows with Null Values](#step-5-dropping-rows-with-null-values)
+6. [Step 6: Dropping Duplicates](#step-6-dropping-duplicates)
+7. [Step 7: Cleaning Columns](#step-7-cleaning-columns)
+8. [Step 8: Handling Screen Resolution Information](#step-8-handling-screen-resolution-information)
+9. [Step 9: Cleaning and Organizing Memory Information](#step-9-cleaning-and-organizing-memory-information)
+10. [Step 10: Final Step: View the Cleaned Laptop Table](#step-10-final-step-view-the-cleaned-laptop-table)
+
+---
+
 ## SQL Code and Explanation
 
 
@@ -185,7 +200,7 @@ SELECT Cpu, SUBSTRING_INDEX(Cpu, ' ', 1) FROM laptop;
             ALTER TABLE laptop DROP COLUMN Cpu;
             SELECT * FROM laptop;
 ```
-### 8. Handling Screen Resolution Information
+### step-8-handling-screen-resolution-information
 Step 1: Creating Columns for Screen Resolution Data
 Three new columns are added to store height, width, and whether the laptop has a touchscreen.
 ```SQL
@@ -250,7 +265,7 @@ SELECT * FROM laptop;
 
 ```
 
-### 9. Cleaning and Organizing Memory Information
+### step-9-cleaning-and-organizing-memory-information
 Step 1: Creating New Columns for Memory Information
 Three new columns are created to store different types of memory information.
 
@@ -322,7 +337,7 @@ The primary_storage and secondary_storages columns are converted to integer type
     MODIFY COLUMN secondary_storages INTEGER;
 
 ```
-### 10. Final Step: View the Cleaned Laptop Table
+### step-10-final-step-view-the-cleaned-laptop-table
 
 ```SQL
 SELECT * FROM laptop;
