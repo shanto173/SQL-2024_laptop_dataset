@@ -1,4 +1,4 @@
-# Laptop Data Cleaning Project
+# Laptop Data Cleaning and Exploratory Data Analysis Project useing SQL
 
 This project involves cleaning a dataset of laptops, which includes steps such as backing up the table, removing unnecessary columns, handling missing values, removing duplicates, and transforming columns into more useful formats for analysis.
 
