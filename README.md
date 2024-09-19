@@ -495,10 +495,43 @@ The second query calculates the 1st quartile (Q1) and 3rd quartile (Q3) and iden
                    
     --Out of 1244 rows there are 151 outliers according to IQR but they are not outliers, if we consider the specification.
 
+### 5. Horizontal Histogram of Laptop Prices
+Overview
+This SQL query generates a horizontal histogram of laptop prices by categorizing the prices into predefined ranges (or "buckets") and displaying the frequency of laptops in each range using asterisks (*). This visual representation helps to quickly understand the distribution of laptop prices.
 
+```sql
+SELECT t.bucket, 
+       COUNT(price), 
+       REPEAT('*', COUNT(price)/5) AS histogram
+FROM (
+  SELECT price,
+    CASE 
+      WHEN price BETWEEN 0 AND 25000 THEN '0-25k'
+      WHEN price BETWEEN 25001 AND 50000 THEN '25k-50k'
+      WHEN price BETWEEN 50001 AND 75000 THEN '50k-75k'
+      WHEN price BETWEEN 75001 AND 100000 THEN '75k-100k'
+      ELSE '>100k'
+    END AS bucket
+  FROM laptop
+) t
+GROUP BY t.bucket;
 
-    
+```
+![Justifying outliers](https://github.com/shanto173/SQL-2024/blob/main/histograme.png)
+    Query Explanation:
+**Bucket Creation:
+The CASE statement groups the laptop prices into five predefined ranges:
+0-25k: Prices between 0 and 25,000.
+25k-50k: Prices between 25,001 and 50,000.
+50k-75k: Prices between 50,001 and 75,000.
+75k-100k: Prices between 75,001 and 100,000.
+>100k: Prices greater than 100,000.**
 
+**Count of Laptops:
+The COUNT(price) function counts how many laptops fall into each price range (bucket).
+Horizontal Histogram:
+The REPEAT('*', COUNT(price)/5) function generates a string of asterisks (*) representing the count of laptops in each bucket. The division by 5 reduces the number of asterisks to make the output more concise and readable.
+Each asterisk represents approximately five laptops, but this can be adjusted by modifying the divisor in COUNT(price)/X.**
 
 
 
