@@ -7,7 +7,7 @@ This project involves cleaning a dataset of laptops, which includes steps such a
 
 ## After Cleaning data
 
-![Before Cleaning Data](https://github.com/shanto173/SQL-2024/blob/main/After_cleaned_data.png)
+![Before Cleaning Data](https://github.com/shanto173/SQL-2024/blob/main/after_cleaned_dataset.png)
 
 ## Table of Contents
 
