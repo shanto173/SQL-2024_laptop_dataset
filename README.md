@@ -446,14 +446,14 @@ FROM laptop;
 
 Provides a statistical summary of the price column, including count, minimum, maximum, average, and standard deviation. Additionally, calculates the 1st quartile (Q1), median, and 3rd quartile (Q3) using the new_index column to determine the appropriate percentile values.
             
-    observation: --here count value is the same as the total number of rows so there are no null values are present
-                 -- the minimum laptop price is 9271. which may be an outlier because a laptop can't be that cheap
-                 -- The maximum laptop price is over 3 lakh which is quite expensive for a laptop
-                 -- avg price is 60k and the median is 52k which indicates that there are some outliers because of this the data is skewed
-                 -- standard deviation is 37k which is a lot, which means data is not that centered, data is quite scattered
-                 -- 25 percentile value is 32k which indicates that 25 percent of laptop price price is less than 32k 
-                 -- 50 percentile value is 52.5k which indicates that 50 percent of the laptop price is less than 52.5k
-                 -- 75 percentile value is 79.5k which indicates that 75 percent of the laptop price is less than 79.5k
+    observation: -- **Here count value is the same as the total number of rows so there are no null values are present**
+                 -- **the minimum laptop price is 9271. which may be an outlier because a laptop can't be that cheap**
+                 -- **The maximum laptop price is over 3 lakh which is quite expensive for a laptop**
+                 -- **avg price is 60k and the median is 52k which indicates that there are some outliers because of this the data is skewed**
+                 -- **standard deviation is 37k which is a lot, which means data is not that centered, data is quite scattered**
+                 -- **25 percentile value is 32k which indicates that 25 percent of laptop price price is less than 32k**
+                 -- **50 percentile value is 52.5k which indicates that 50 percent of the laptop price is less than 52.5k**
+                 -- **75 percentile value is 79.5k which indicates that 75 percent of the laptop price is less than 79.5k**
                          
 
 
