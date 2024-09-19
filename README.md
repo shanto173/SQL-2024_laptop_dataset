@@ -355,6 +355,199 @@ SELECT * FROM laptop;
 ```
 
 
+# Exploratory Data Analysis
+
+## Introduction
+
+In this analysis, I perform Exploratory Data Analysis (EDA) to gain insights into the dataset and prepare it for further modeling. The EDA process is divided into several key steps:
+
+1. **Univariate Data Analysis**:
+   - I start by analyzing individual variables to understand their distributions and characteristics. This includes examining numerical columns and identifying basic statistical measures.
+
+2. **Bivariate Data Analysis**:
+   -  Then explore the relationships between pairs of variables. This involves:
+     - **Numerical-Numerical Analysis**: Investigating the correlation and patterns between numerical variables.
+     - **Categorical-Categorical Analysis**: Analyzing the interactions between categorical variables.
+     - **Categorical to Numerical Analysis**: Examining how categorical variables impact numerical variables.
+
+3. **Data Cleaning and Preparation**:
+   - Based on insights gained from the univariate and bivariate analyses, I address missing values by imputing them appropriately.
+   - Outliers are identified and handled to ensure they do not skew the analysis.
+
+4. **Feature Engineering**:
+   - New features are created to enhance the dataset. For example, I may calculate metrics like Pixel Per Inch (PPI) using existing columns such as height and width, which can serve as valuable indicators of laptop price.
+
+5. **Categorical Data Encoding**:
+   - Finally, categorical data is transformed into a numerical format using one-hot encoding to prepare it for machine learning models.
+
+This structured approach ensures a thorough understanding of the dataset and prepares it for accurate and effective analysis.
+
+## 1. Data Preview
+
+This section provides an overview of the data in the `laptop` table, including a preview of the top and bottom rows, as well as a random sample.
+
+### Head
+```sql
+SELECT * FROM laptop ORDER BY `index` LIMIT 5;
+```
+![Top 5 Rows](https://github.com/shanto173/SQL-2024/blob/main/head_5.png)
+
+Retrieves the first 5 rows from the laptop table, ordered by the index column. Useful for quickly viewing the initial entries in the dataset.
+
+### Tail
+```sql
+SELECT * FROM laptop ORDER BY `index` DESC LIMIT 5;
+```
+![Top 5 Rows](https://github.com/shanto173/SQL-2024/blob/main/tail.png)
+
+Retrieves the last 5 rows from the laptop table, ordered by the index column in descending order. for understanding the data, and quickly viewing the final entries in the dataset.
+
+### Sample
+
+```sql
+SELECT * FROM laptop ORDER BY RAND() LIMIT 5;
+```
+![Top 5 Rows](https://github.com/shanto173/SQL-2024/blob/main/random_5.png)
+
+Retrieves 5 random rows from the laptop table for getting a random sample of data to examine various parts of the dataset.
+
+## 2. Univariate Analysis of Numerical Columns(Price)
+
+This section focuses on the price column, which is a numerical column of interest. It includes steps for calculating key statistical measures and identifying outliers.
+
+### Creating a New Index for Percentile Calculation
+```sql
+WITH temp AS (
+  SELECT `index`, price, ROW_NUMBER() OVER(ORDER BY price) AS new_row
+  FROM laptop
+)
+UPDATE laptop t1
+JOIN temp t2 ON t1.index = t2.index
+SET t1.new_index = t2.new_row;
+```
+Adds a new column new_index to the laptop table, which contains the row number ordered by price. This is used to facilitate percentile calculations because there are no 
+the function that I can use for percentile.
+
+### Statistical Summary and Quantiles
+```sql
+    SELECT 
+  COUNT(price) AS count,
+  MIN(price) AS min_price,
+  MAX(price) AS max_price,
+  AVG(price) AS average_price,
+  STD(price) AS std_dev_price,
+  (SELECT price FROM laptop WHERE new_index IN (FLOOR((25*(SELECT COUNT(*) FROM laptop)+1)/100))) AS Q1,
+  (SELECT price FROM laptop WHERE new_index IN (FLOOR((50*(SELECT COUNT(*) FROM laptop)+1)/100))) AS Median,
+  (SELECT price FROM laptop WHERE new_index IN (FLOOR((75*(SELECT COUNT(*) FROM laptop)+1)/100))) AS Q3
+FROM laptop;
+
+```
+![8 number Summary](https://github.com/shanto173/SQL-2024/blob/main/8_number_summary.png)
+
+Provides a statistical summary of the price column, including count, minimum, maximum, average, and standard deviation. Additionally, calculates the 1st quartile (Q1), median, and 3rd quartile (Q3) using the new_index column to determine the appropriate percentile values.
+            
+            observation: --here count value is the same as the total number of rows so there are no null values are present
+                         -- the minimum laptop price is 9271. which may be a outlier because laptop can't be that cheap
+                         -- The maximum laptop price is over 3 lakh which is quite expensive for a laptop
+                         -- avg price is 60k and the median is 52k which indicates that there are some outliers because of this the data is skewed
+                         -- standard deviation is 37k which is a lot, which means data is not that centered, data is quite scattered
+                         -- 25 percentile value is 32k which indicates that 25 percent of laptop price price is less than 32k 
+                         -- 50 percentile value is 52.5k which indicates that 50 percent of the laptop price is less than 52.5k
+                         -- 75 percentile value is 79.5k which indicates that 75 percent of the laptop price is less than 79.5k
+                         
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
