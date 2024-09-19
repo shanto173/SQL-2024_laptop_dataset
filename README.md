@@ -447,14 +447,53 @@ FROM laptop;
 Provides a statistical summary of the price column, including count, minimum, maximum, average, and standard deviation. Additionally, calculates the 1st quartile (Q1), median, and 3rd quartile (Q3) using the new_index column to determine the appropriate percentile values.
             
     observation: -- **Here count value is the same as the total number of rows so there are no null values are present**
-                 -- **the minimum laptop price is 9271. which may be an outlier because a laptop can't be that cheap**
+                 -- **The minimum laptop price is 9271. which may be an outlier because a laptop can't be that cheap**
                  -- **The maximum laptop price is over 3 lakh which is quite expensive for a laptop**
                  -- **avg price is 60k and the median is 52k which indicates that there are some outliers because of this the data is skewed**
                  -- **standard deviation is 37k which is a lot, which means data is not that centered, data is quite scattered**
                  -- **25 percentile value is 32k which indicates that 25 percent of laptop price price is less than 32k**
                  -- **50 percentile value is 52.5k which indicates that 50 percent of the laptop price is less than 52.5k**
                  -- **75 percentile value is 79.5k which indicates that 75 percent of the laptop price is less than 79.5k**
-                         
+
+### 3. Missing Value Detection
+
+This section identifies rows where the `price` column has missing values (i.e., null entries).
+
+### Finding Missing Price Values
+```sql
+SELECT * FROM laptop WHERE price IS NULL;
+```
+
+![Null values](https://github.com/shanto173/SQL-2024/blob/main/Price_null.png)
+
+Retrieves all rows from the laptop table where the price column is null. This helps in identifying any missing values that need to be imputed or handled before further analysis.
+
+### 4. Outlier Detection
+Outliers can significantly affect the results of the analysis, so this section focuses on identifying them based on the interquartile range (IQR) method.
+
+```sql
+SELECT * FROM laptop;
+
+SELECT * 
+FROM (
+  SELECT *,
+    (SELECT price FROM laptop WHERE new_index IN (FLOOR((25*(SELECT COUNT(*) FROM laptop)+1)/100))) AS Q1,
+    (SELECT price FROM laptop WHERE new_index IN (FLOOR((75*(SELECT COUNT(*) FROM laptop)+1)/100))) AS Q3
+  FROM laptop
+) t
+WHERE t.price < (Q1 - (1.5 * (t.Q3 - t.Q1))) OR 
+      t.price > (Q1 + (1.5 * (t.Q3 - t.Q1)));
+
+```
+![Outliers Detection](https://github.com/shanto173/SQL-2024/blob/main/finding_outliers.png)
+
+**Description:**
+The first query retrieves all rows from the laptop table for a general overview.
+The second query calculates the 1st quartile (Q1) and 3rd quartile (Q3) and identifies any rows where the price is an outlier. Outliers are defined as values below Q1 - 1.5*(Q3 - Q1) or above Q1 + 1.5*(Q3 - Q1). 
+
+![Justifying outliers](https://github.com/shanto173/SQL-2024/blob/main/justifying_outliers.png)
+                   
+    --Out of 1244 rows there are 151 outliers according to IQR but they are not outliers, if we consider the specification.
 
 
 
