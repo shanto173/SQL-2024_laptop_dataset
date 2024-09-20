@@ -27,8 +27,8 @@ This project involves cleaning a dataset of laptops, which includes steps such a
 1. [Exploratory-Data-Analysis](#Exploratory-Data-Analysis)<br>
 2. [Introduction](#Introduction)
 4. [Data-Preview](#1-Data-Preview)
-5. [Univariate-Analysis-of-Numerical-Columns(Price)](#2-Univariate-Analysis-of-Numerical-Columns(Price))
-6. [Bivariate-Data-Analysis(Numerical-Column](#3-Bivariate-Data-Analysis(Numerical-Column))
+5. [Univariate-Analysis-of-Numerical-Columns(Price)](#2-univariate-analysis-of-numerical-columnsprice)
+6. [Bivariate-Data-Analysis(Numerical-Column](#3-bivariate-data-analysisnumerical-column)
 
 
 
