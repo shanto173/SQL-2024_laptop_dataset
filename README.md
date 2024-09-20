@@ -9,7 +9,7 @@ This project involves cleaning a dataset of laptops, which includes steps such a
 
 ![Before Cleaning Data](https://github.com/shanto173/SQL-2024/blob/main/image/after_cleaned_dataset.png)
 
-## Table of Contents
+## Table of Contents for Data Cleaning 
 
 1. [Step 1: Creating Backup](#step-1-creating-backup)
 2. [Step 2: Checking the Number of Rows and Columns](#step-2-checking-the-number-of-rows-and-columns)
@@ -21,6 +21,16 @@ This project involves cleaning a dataset of laptops, which includes steps such a
 8. [Step 8: Handling Screen Resolution Information](#step-8-handling-screen-resolution-information)
 9. [Step 9: Cleaning and Organizing Memory Information](#step-9-cleaning-and-organizing-memory-information)
 10. [Step 10: Final Step: View the Cleaned Laptop Table](#step-10-final-step-view-the-cleaned-laptop-table)
+
+## Table of Contents for exploratory data analysis. 
+
+1. [Step 1: Creating Backup](#Exploratory-Data-Analysis)<br>
+2. [Step 3: Checking Memory Usage](#Introduction)
+4. [Step 4: Dropping Non-important Columns](#1.-Data-Preview)
+5. [Step 5: Dropping Rows with Null Values](#2.-Univariate-Analysis-of-Numerical-Columns(Price))
+6. [Step 6: Dropping Duplicates](#3.-Bivariate-Data-Analysis(Numerical-Column))
+
+
 
 ---
 
@@ -382,41 +392,42 @@ In this analysis, I perform Exploratory Data Analysis (EDA) to gain insights int
 
 This structured approach ensures a thorough understanding of the dataset and prepares it for accurate and effective analysis.
 
-## 1. Data Preview
+### 1. Data Preview
 
 This section provides an overview of the data in the `laptop` table, including a preview of the top and bottom rows, as well as a random sample.
 
-### Head
-```sql
+#### Head
+```SQL
 SELECT * FROM laptop ORDER BY `index` LIMIT 5;
 ```
 ![Top 5 Rows](https://github.com/shanto173/SQL-2024/blob/main/image/head_5.png)
 
 Retrieves the first 5 rows from the laptop table, ordered by the index column. Useful for quickly viewing the initial entries in the dataset.
 
-### Tail
-```sql
+#### Tail
+```SQL
 SELECT * FROM laptop ORDER BY `index` DESC LIMIT 5;
 ```
 ![Top 5 Rows](https://github.com/shanto173/SQL-2024/blob/main/image/tail.png)
 
 Retrieves the last 5 rows from the laptop table, ordered by the index column in descending order. for understanding the data, and quickly viewing the final entries in the dataset.
 
-### Sample
+#### Sample
 
-```sql
+```SQL
 SELECT * FROM laptop ORDER BY RAND() LIMIT 5;
 ```
+Results:
 ![Top 5 Rows](https://github.com/shanto173/SQL-2024/blob/main/image/random_5.png)
 
 Retrieves 5 random rows from the laptop table for getting a random sample of data to examine various parts of the dataset.
 
-## 2. Univariate Analysis of Numerical Columns(Price)
+### 2. Univariate Analysis of Numerical Columns(Price)
 
 This section focuses on the price column, which is a numerical column of interest. It includes steps for calculating key statistical measures and identifying outliers.
 
-### Creating a New Index for Percentile Calculation
-```sql
+#### Creating a New Index for Percentile Calculation
+```SQL
 WITH temp AS (
   SELECT `index`, price, ROW_NUMBER() OVER(ORDER BY price) AS new_row
   FROM laptop
@@ -428,8 +439,8 @@ SET t1.new_index = t2.new_row;
 Adds a new column new_index to the laptop table, which contains the row number ordered by price. This is used to facilitate percentile calculations because there are no 
 the function that I can use for percentile.
 
-### Statistical Summary and Quantiles
-```sql
+#### Statistical Summary and Quantiles
+```SQL
     SELECT 
   COUNT(price) AS count,
   MIN(price) AS min_price,
@@ -442,6 +453,7 @@ the function that I can use for percentile.
 FROM laptop;
 
 ```
+Results:
 ![8 number Summary](https://github.com/shanto173/SQL-2024/blob/main/image/8_number_summary.png)
 
 Provides a statistical summary of the price column, including count, minimum, maximum, average, and standard deviation. Additionally, calculates the 1st quartile (Q1), median, and 3rd quartile (Q3) using the new_index column to determine the appropriate percentile values.
@@ -455,23 +467,23 @@ Provides a statistical summary of the price column, including count, minimum, ma
                  -- **50 percentile value is 52.5k which indicates that 50 percent of the laptop price is less than 52.5k**
                  -- **75 percentile value is 79.5k which indicates that 75 percent of the laptop price is less than 79.5k**
 
-### 3. Missing Value Detection
+#### 3. Missing Value Detection
 
 This section identifies rows where the `price` column has missing values (i.e., null entries).
 
-### Finding Missing Price Values
-```sql
+#### Finding Missing Price Values
+```SQL
 SELECT * FROM laptop WHERE price IS NULL;
 ```
-
+Results:
 ![Null values](https://github.com/shanto173/SQL-2024/blob/main/image/Price_null.png)
 
 Retrieves all rows from the laptop table where the price column is null. This helps in identifying any missing values that need to be imputed or handled before further analysis.
 
-### 4. Outlier Detection
+#### 4. Outlier Detection
 Outliers can significantly affect the results of the analysis, so this section focuses on identifying them based on the interquartile range (IQR) method.
 
-```sql
+```SQL
 SELECT * FROM laptop;
 
 SELECT * 
@@ -485,21 +497,23 @@ WHERE t.price < (Q1 - (1.5 * (t.Q3 - t.Q1))) OR
       t.price > (Q1 + (1.5 * (t.Q3 - t.Q1)));
 
 ```
+Results:
 ![Outliers Detection](https://github.com/shanto173/SQL-2024/blob/main/image/finding_outliers.png)
 
 **Description:**
 The first query retrieves all rows from the laptop table for a general overview.
 The second query calculates the 1st quartile (Q1) and 3rd quartile (Q3) and identifies any rows where the price is an outlier. Outliers are defined as values below Q1 - 1.5*(Q3 - Q1) or above Q1 + 1.5*(Q3 - Q1). 
 
+Results:
 ![Justifying outliers](https://github.com/shanto173/SQL-2024/blob/main/image/justifying_outliers.png)
                    
     --Out of 1244 rows there are 151 outliers according to IQR but they are not outliers, if we consider the specification.
 
-### 5. Horizontal Histogram of Laptop Prices
+#### 5. Horizontal Histogram of Laptop Prices
 Overview
 This SQL query generates a horizontal histogram of laptop prices by categorizing the prices into predefined ranges (or "buckets") and displaying the frequency of laptops in each range using asterisks (*). This visual representation helps to quickly understand the distribution of laptop prices.
 
-```sql
+```SQL
 SELECT t.bucket, 
        COUNT(price), 
        REPEAT('*', COUNT(price)/5) AS histogram
@@ -517,6 +531,7 @@ FROM (
 GROUP BY t.bucket;
 
 ```
+Results:
 ![Laptop Histograme](https://github.com/shanto173/SQL-2024/blob/main/image/histograme.png)
 Bucket Creation:
 The CASE statement groups the laptop prices into five predefined ranges
@@ -531,7 +546,7 @@ Each asterisk represents approximately five laptops, but this can be adjusted by
                  - only 300 laptops price range between 75k to over 100k because of their brand name and specs their prices are quite high.
 
 
-### 6. Data Analysis on weight column
+#### 6. Data Analysis on weight column
 The following SQL query provides a basic statistical summary of the Weight column, including the count, minimum, maximum, average, and standard deviation.
 ```SQL
 SELECT COUNT(Weight), 
@@ -541,6 +556,7 @@ SELECT COUNT(Weight),
        STD(Weight)
 FROM laptop;
 ```
+Results:
 ![weight 5 Number Summary](https://github.com/shanto173/SQL-2024/blob/main/image/weight_5_number_summary.png)
 
     observation:- By seeing the count value I can say there are no null values present 
@@ -591,25 +607,114 @@ Bucket Creation: The CASE statement groups the laptop weights into the following
 3kg-5kg: Heavier laptops.
 >5kg: Unusually heavy Laptops (if any remain after outlier removal).
 
+Results:
 ![Weight_histograme](https://github.com/shanto173/SQL-2024/blob/main/image/weight_histograme.png)
 
+#### 7. CPU Speed Analysis in SQL
+The following SQL query provides a statistical overview of the CPU speeds in the dataset, including the total number of records, the slowest and fastest CPU speeds, and the average and standard deviation of the values.
+
+```sql
+SELECT COUNT(cpu_speed), 
+       MIN(cpu_speed), 
+       MAX(cpu_speed), 
+       AVG(cpu_speed), 
+       STD(cpu_speed)
+FROM laptop;
+```
+Results:
+![Cpu_5_Number_summary](https://github.com/shanto173/SQL-2024/blob/main/image/cpu_5_number_summary.png)
+
+    observation: - AVG(cpu_speed): The average CPU speed of laptops is approximately 2.30 GHz, reflecting a typical mid-range performance level for laptops.
+                 - STD(cpu_speed): The standard deviation is 0.5049 GHz, indicating that most CPU speeds fall within half a GHz from the average.
+                 - Modern laptops typically have CPU speeds ranging from 1.5 GHz to 3.5 GHz or higher. A speed of 0.9 GHz seems unusually low, which might indicate an                      - outlier. It could represent very old or specialized low-power processors (like those in ultra-portable devices) 
+
+### 1. Categorical Data Analysis (Company)
+The SQL query below retrieves the number of laptops for each company in the dataset.<br>It helps identify which brands have the most and least representation in the dataset.
+
+SQL Code:
+```SQL
+SELECT company, COUNT(company) 
+FROM laptop 
+GROUP BY company;
+```
+Result:
+
+![Company_pie_chart](https://github.com/shanto173/SQL-2024/blob/main/image/company_pie.png)
+
+    Insights: Top 3 Brands is 
+                - Lenovo: 281 laptops
+                - Dell: 280 laptops
+                - HP: 260 laptops
+                These brands dominate the dataset, indicating their strong presence in the laptop market.
+              
+              Smaller Representation:
+                Asus, Acer, Apple, and Fujitsu have very limited representation.
+
+### 2. Analyzing Touchscreen Feature
+The SQL query below retrieves the count and percentage of laptops that are equipped with a touchscreen versus those that are not.<be> The percentage of each category is calculated based on the total number of laptops in the dataset.
+
+```SQL
+    SELECT 
+  touchscreen,
+  COUNT(touchscreen) AS touchscreen_count,
+  COUNT(touchscreen) / (SELECT COUNT(*) FROM laptop) AS touchscreen_percentage
+FROM laptop
+GROUP BY touchscreen;
+```
+Result:
+
+![Touchscreen percentage](https://github.com/shanto173/SQL-2024/blob/main/image/touchscreen_percentage.png)
+
+    Insights: - Non-TouchScreen Laptops:
+                 - The majority of laptops in the dataset, approximately 85.41%, do not have a touchscreen.
+              - TouchScreen Laptops:
+                 - About 14.59% of the laptops are equipped with a touchscreen, indicating that touchscreens are less common.
+
+
+### 3. Analyzing CPU Brand
+The SQL query below retrieves the count and percentage of laptops by CPU brand. It shows how common each CPU brand is within the dataset by calculating the percentage share of each.
+
+```SQL
+SELECT 
+  cpu_brand,
+  COUNT(cpu_brand) AS cpu_brand_count,
+  COUNT(cpu_brand) / (SELECT COUNT(*) FROM laptop) AS cpu_brand_percentage
+FROM laptop
+GROUP BY cpu_brand;
+```
+Result:
+
+![Cpu_brand_pie_char](https://github.com/shanto173/SQL-2024/blob/main/image/cpu_brand.png)
+
+    Insights:
+    Intel dominates the dataset with 95.08% of laptops using Intel CPUs, making it by far the most common CPU brand.
+    AMD accounts for 4.83% of the laptops, making it the second most common but significantly less popular than Intel.
+    Samsung represents just 0.08% of the dataset, with only one laptop in the dataset using a Samsung CPU.
 
 
 
+### 4. Analyzing CPU Brand
+The SQL query below retrieves the count and percentage of laptops by CPU brand. It shows how common each CPU brand is within the dataset by calculating the percentage share of each.
 
+```SQL
+SELECT 
+  cpu_brand,
+  COUNT(cpu_brand) AS cpu_brand_count,
+  COUNT(cpu_brand) / (SELECT COUNT(*) FROM laptop) AS cpu_brand_percentage
+FROM laptop
+GROUP BY cpu_brand;
 
+```
+Result:
 
+![Cpu_brand_pie_char](https://github.com/shanto173/SQL-2024/blob/main/image/opsys_pie.png)
 
+    Insights:
+    Intel dominates the dataset with 95.08% of laptops using Intel CPUs, making it by far the most common CPU brand.
+    AMD accounts for 4.83% of the laptops, making it the second most common but significantly less popular than Intel.
+    Samsung represents just 0.08% of the dataset, with only one laptop in the dataset using a Samsung CPU.
 
-
-
-
-
-
-
-
-
-
+### 3. Bivariate Data Analysis(Numerical Column)
 
 
 
