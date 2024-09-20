@@ -24,11 +24,11 @@ This project involves cleaning a dataset of laptops, which includes steps such a
 
 ## Table of Contents for exploratory data analysis. 
 
-1. [Step 1: Creating Backup](#Exploratory-Data-Analysis)<br>
-2. [Step 3: Checking Memory Usage](#Introduction)
-4. [Step 4: Dropping Non-important Columns](#1.-Data-Preview)
-5. [Step 5: Dropping Rows with Null Values](#2.-Univariate-Analysis-of-Numerical-Columns(Price))
-6. [Step 6: Dropping Duplicates](#3.-Bivariate-Data-Analysis(Numerical-Column))
+1. [Exploratory-Data-Analysis](#Exploratory-Data-Analysis)<br>
+2. [Introduction](#Introduction)
+4. [Data-Preview](#1.Data-Preview)
+5. [Univariate-Analysis-of-Numerical-Columns(Price)](#2.Univariate-Analysis-of-Numerical-Columns(Price))
+6. [Bivariate-Data-Analysis(Numerical-Column](#3.Bivariate-Data-Analysis(Numerical-Column))
 
 
 
@@ -422,7 +422,7 @@ Results:
 
 Retrieves 5 random rows from the laptop table for getting a random sample of data to examine various parts of the dataset.
 
-### 2. Univariate Analysis of Numerical Columns(Price)
+### 2.Univariate Analysis of Numerical Columns(Price)
 
 This section focuses on the price column, which is a numerical column of interest. It includes steps for calculating key statistical measures and identifying outliers.
 
@@ -546,7 +546,7 @@ Each asterisk represents approximately five laptops, but this can be adjusted by
                  - only 300 laptops price range between 75k to over 100k because of their brand name and specs their prices are quite high.
 
 
-#### 6. Data Analysis on weight column
+#### 6.Data Analysis on weight column
 The following SQL query provides a basic statistical summary of the Weight column, including the count, minimum, maximum, average, and standard deviation.
 ```SQL
 SELECT COUNT(Weight), 
@@ -584,7 +584,7 @@ Once outliers are detected, they can be removed from the dataset using the follo
 DELETE FROM laptop WHERE `index` = 349;  -- Remove row with weight 0.0002 kg
 DELETE FROM laptop WHERE `index` IN (326, 587);  -- Remove rows with weight > 5 kg
 ```
-#### 6.4 Visualizing the Weight Distribution
+#### 6.4Visualizing the Weight Distribution
 After removing the outliers, I visualize the distribution of laptop weights by plotting a horizontal histogram using SQL. The histogram groups laptops into buckets based on their weight, with each asterisk (*) representing a certain number of laptops in each bucket.
 
 ```sql
@@ -610,7 +610,7 @@ Bucket Creation: The CASE statement groups the laptop weights into the following
 Results:
 ![Weight_histograme](https://github.com/shanto173/SQL-2024/blob/main/image/weight_histograme.png)
 
-#### 7. CPU Speed Analysis in SQL
+#### 7.CPU Speed Analysis in SQL
 The following SQL query provides a statistical overview of the CPU speeds in the dataset, including the total number of records, the slowest and fastest CPU speeds, and the average and standard deviation of the values.
 
 ```sql
@@ -628,7 +628,7 @@ Results:
                  - STD(cpu_speed): The standard deviation is 0.5049 GHz, indicating that most CPU speeds fall within half a GHz from the average.
                  - Modern laptops typically have CPU speeds ranging from 1.5 GHz to 3.5 GHz or higher. A speed of 0.9 GHz seems unusually low, which might indicate an                      - outlier. It could represent very old or specialized low-power processors (like those in ultra-portable devices) 
 
-### 1. Categorical Data Analysis (Company)
+### 1.Categorical Data Analysis (Company)
 The SQL query below retrieves the number of laptops for each company in the dataset.<br>It helps identify which brands have the most and least representation in the dataset.
 
 SQL Code:
@@ -650,7 +650,7 @@ Result:
               Smaller Representation:
                 Asus, Acer, Apple, and Fujitsu have very limited representation.
 
-### 2. Analyzing Touchscreen Feature
+### 2.Analyzing Touchscreen Feature
 The SQL query below retrieves the count and percentage of laptops that are equipped with a touchscreen versus those that are not.<be> The percentage of each category is calculated based on the total number of laptops in the dataset.
 
 ```SQL
@@ -714,7 +714,7 @@ Result:
     AMD accounts for 4.83% of the laptops, making it the second most common but significantly less popular than Intel.
     Samsung represents just 0.08% of the dataset, with only one laptop in the dataset using a Samsung CPU.
 
-### 3. Bivariate Data Analysis(Numerical Column)
+### 3.Bivariate Data Analysis(Numerical Column)
 
 
 
