@@ -26,9 +26,9 @@ This project involves cleaning a dataset of laptops, which includes steps such a
 
 1. [Exploratory-Data-Analysis](#Exploratory-Data-Analysis)<br>
 2. [Introduction](#Introduction)
-4. [Data-Preview](#1.Data-Preview)
-5. [Univariate-Analysis-of-Numerical-Columns(Price)](#2.Univariate-Analysis-of-Numerical-Columns(Price))
-6. [Bivariate-Data-Analysis(Numerical-Column](#3.Bivariate-Data-Analysis(Numerical-Column))
+4. [Data-Preview](#1-Data-Preview)
+5. [Univariate-Analysis-of-Numerical-Columns(Price)](#2-Univariate-Analysis-of-Numerical-Columns(Price))
+6. [Bivariate-Data-Analysis(Numerical-Column](#3-Bivariate-Data-Analysis(Numerical-Column))
 
 
 
@@ -392,7 +392,7 @@ In this analysis, I perform Exploratory Data Analysis (EDA) to gain insights int
 
 This structured approach ensures a thorough understanding of the dataset and prepares it for accurate and effective analysis.
 
-### 1.Data-Preview
+### 1-Data-Preview
 
 This section provides an overview of the data in the `laptop` table, including a preview of the top and bottom rows, as well as a random sample.
 
@@ -422,7 +422,7 @@ Results:
 
 Retrieves 5 random rows from the laptop table for getting a random sample of data to examine various parts of the dataset.
 
-### 2.Univariate-Analysis-of-Numerical-Columns(Price)
+### 2-Univariate-Analysis-of-Numerical-Columns(Price)
 
 This section focuses on the price column, which is a numerical column of interest. It includes steps for calculating key statistical measures and identifying outliers.
 
@@ -714,7 +714,7 @@ Result:
     AMD accounts for 4.83% of the laptops, making it the second most common but significantly less popular than Intel.
     Samsung represents just 0.08% of the dataset, with only one laptop in the dataset using a Samsung CPU.
 
-### 3.Bivariate-Data-Analysis(Numerical-Column)
+### 3-Bivariate-Data-Analysis(Numerical-Column)
 
 
 
