@@ -390,7 +390,7 @@ This section provides an overview of the data in the `laptop` table, including a
 ```sql
 SELECT * FROM laptop ORDER BY `index` LIMIT 5;
 ```
-![Top 5 Rows](https://github.com/shanto173/SQL-2024/blob/main/head_5.png)
+![Top 5 Rows](https://github.com/shanto173/SQL-2024/blob/main/image/head_5.png)
 
 Retrieves the first 5 rows from the laptop table, ordered by the index column. Useful for quickly viewing the initial entries in the dataset.
 
@@ -398,7 +398,7 @@ Retrieves the first 5 rows from the laptop table, ordered by the index column. U
 ```sql
 SELECT * FROM laptop ORDER BY `index` DESC LIMIT 5;
 ```
-![Top 5 Rows](https://github.com/shanto173/SQL-2024/blob/main/tail.png)
+![Top 5 Rows](https://github.com/shanto173/SQL-2024/blob/main/image/tail.png)
 
 Retrieves the last 5 rows from the laptop table, ordered by the index column in descending order. for understanding the data, and quickly viewing the final entries in the dataset.
 
@@ -407,7 +407,7 @@ Retrieves the last 5 rows from the laptop table, ordered by the index column in 
 ```sql
 SELECT * FROM laptop ORDER BY RAND() LIMIT 5;
 ```
-![Top 5 Rows](https://github.com/shanto173/SQL-2024/blob/main/random_5.png)
+![Top 5 Rows](https://github.com/shanto173/SQL-2024/blob/main/image/random_5.png)
 
 Retrieves 5 random rows from the laptop table for getting a random sample of data to examine various parts of the dataset.
 
@@ -442,7 +442,7 @@ the function that I can use for percentile.
 FROM laptop;
 
 ```
-![8 number Summary](https://github.com/shanto173/SQL-2024/blob/main/8_number_summary.png)
+![8 number Summary](https://github.com/shanto173/SQL-2024/blob/main/image/8_number_summary.png)
 
 Provides a statistical summary of the price column, including count, minimum, maximum, average, and standard deviation. Additionally, calculates the 1st quartile (Q1), median, and 3rd quartile (Q3) using the new_index column to determine the appropriate percentile values.
             
@@ -464,7 +464,7 @@ This section identifies rows where the `price` column has missing values (i.e., 
 SELECT * FROM laptop WHERE price IS NULL;
 ```
 
-![Null values](https://github.com/shanto173/SQL-2024/blob/main/Price_null.png)
+![Null values](https://github.com/shanto173/SQL-2024/blob/main/image/Price_null.png)
 
 Retrieves all rows from the laptop table where the price column is null. This helps in identifying any missing values that need to be imputed or handled before further analysis.
 
@@ -485,13 +485,13 @@ WHERE t.price < (Q1 - (1.5 * (t.Q3 - t.Q1))) OR
       t.price > (Q1 + (1.5 * (t.Q3 - t.Q1)));
 
 ```
-![Outliers Detection](https://github.com/shanto173/SQL-2024/blob/main/finding_outliers.png)
+![Outliers Detection](https://github.com/shanto173/SQL-2024/blob/main/image/finding_outliers.png)
 
 **Description:**
 The first query retrieves all rows from the laptop table for a general overview.
 The second query calculates the 1st quartile (Q1) and 3rd quartile (Q3) and identifies any rows where the price is an outlier. Outliers are defined as values below Q1 - 1.5*(Q3 - Q1) or above Q1 + 1.5*(Q3 - Q1). 
 
-![Justifying outliers](https://github.com/shanto173/SQL-2024/blob/main/justifying_outliers.png)
+![Justifying outliers](https://github.com/shanto173/SQL-2024/blob/main/image/justifying_outliers.png)
                    
     --Out of 1244 rows there are 151 outliers according to IQR but they are not outliers, if we consider the specification.
 
@@ -517,7 +517,7 @@ FROM (
 GROUP BY t.bucket;
 
 ```
-![Justifying outliers](https://github.com/shanto173/SQL-2024/blob/main/histograme.png)
+![Justifying outliers](https://github.com/shanto173/SQL-2024/blob/main/image/histograme.png)
     Query Explanation:
 **Bucket Creation:
 The CASE statement groups the laptop prices into five predefined ranges:
