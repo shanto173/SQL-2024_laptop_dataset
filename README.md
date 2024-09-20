@@ -517,21 +517,82 @@ FROM (
 GROUP BY t.bucket;
 
 ```
-![Justifying outliers](https://github.com/shanto173/SQL-2024/blob/main/image/histograme.png)
-    Query Explanation:
-**Bucket Creation:
-The CASE statement groups the laptop prices into five predefined ranges:
-0-25k: Prices between 0 and 25,000.
-25k-50k: Prices between 25,001 and 50,000.
-50k-75k: Prices between 50,001 and 75,000.
-75k-100k: Prices between 75,001 and 100,000.
->100k: Prices greater than 100,000.**
-
+![Laptop Histograme](https://github.com/shanto173/SQL-2024/blob/main/image/histograme.png)
+Bucket Creation:
+The CASE statement groups the laptop prices into five predefined ranges
 **Count of Laptops:
 The COUNT(price) function counts how many laptops fall into each price range (bucket).
-Horizontal Histogram:
-The REPEAT('*', COUNT(price)/5) function generates a string of asterisks (*) representing the count of laptops in each bucket. The division by 5 reduces the number of asterisks to make the output more concise and readable.
+Horizontal Histogram.**
+
+**The REPEAT('*', COUNT(price)/5) function generates a string of asterisks (*) representing the count of laptops in each bucket. The division by 5 reduces the number of asterisks to make the output more concise and readable.
 Each asterisk represents approximately five laptops, but this can be adjusted by modifying the divisor in COUNT(price)/X.**
+            
+    Observation: - most of the laptop price range between 25k to 50k and 50k to 75k 
+                 - only 300 laptops price range between 75k to over 100k because of their brand name and specs their prices are quite high.
+
+
+### 6. Data Analysis on weight column
+The following SQL query provides a basic statistical summary of the Weight column, including the count, minimum, maximum, average, and standard deviation.
+```SQL
+SELECT COUNT(Weight), 
+       MIN(Weight), 
+       MAX(Weight), 
+       AVG(Weight), 
+       STD(Weight)
+FROM laptop;
+```
+![weight 5 Number Summary](https://github.com/shanto173/SQL-2024/blob/main/image/weight_5_number_summary.png)
+
+    observation:- By seeing the count value I can say there are no null values present 
+                - By seeing the price and max price there are some outliers present in the data
+                - By seeing Std, the std less I can say the weight data is mostly centered
+
+#### 6.1 Outlier Detection of weight
+
+Weight of 0.0002 kg:
+This weight is considered an outlier since it is far below a reasonable laptop weight.
+The following query is used to identify such records
+```SQL
+SELECT * FROM laptop 
+WHERE Weight = 0.0002;
+```
+#### 6.2 Weights Above 5 kg:
+Laptops weighing more than 5 kg are likely outliers since most laptops are designed to be portable, with weights generally between 0.5 and 3 kg. This query finds such outliers:
+```SQL
+SELECT * FROM laptop 
+WHERE Weight > 5;
+```
+#### 6.3 Outliers removal
+Once outliers are detected, they can be removed from the dataset using the following DELETE queries.
+```sql
+DELETE FROM laptop WHERE `index` = 349;  -- Remove row with weight 0.0002 kg
+DELETE FROM laptop WHERE `index` IN (326, 587);  -- Remove rows with weight > 5 kg
+```
+#### 6.4 Visualizing the Weight Distribution
+After removing the outliers, I visualize the distribution of laptop weights by plotting a horizontal histogram using SQL. The histogram groups laptops into buckets based on their weight, with each asterisk (*) representing a certain number of laptops in each bucket.
+
+```sql
+SELECT bucket, 
+       COUNT(bucket), 
+       REPEAT('*', COUNT(bucket)/6) AS histogram
+FROM (
+  SELECT Weight,
+    CASE
+      WHEN Weight BETWEEN 0.5 AND 3 THEN '0.5kg-3kg'
+      WHEN Weight BETWEEN 3.1 AND 5 THEN '3kg-5kg'
+      ELSE '>5kg'
+    END AS bucket
+  FROM laptop
+) t 
+GROUP BY bucket;
+```
+Bucket Creation: The CASE statement groups the laptop weights into the following categories:
+0.5kg-3kg: Lightweight laptops.
+3kg-5kg: Heavier laptops.
+>5kg: Unusually heavy Laptops (if any remain after outlier removal).
+
+![Weight_histograme](https://github.com/shanto173/SQL-2024/blob/main/image/weight_histograme.png)
+
 
 
 
