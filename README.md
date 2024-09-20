@@ -716,6 +716,49 @@ Result:
 
 ### 3-Bivariate-Data-Analysis(Numerical-Column)
 
+#### 3.1 Bivariate Analysis (Company vs. Touchscreen)
+
+The SQL query below performs a bivariate analysis by grouping the laptops based on Company and Touchscreen status. It calculates the number of TouchScreen and Non-TouchScreen laptops for each company.
+
+```sql
+SELECT 
+  Company,
+  SUM(CASE WHEN touchscreen = 1 THEN 1 ELSE 0 END) AS 'TouchScreen_Yes',
+  SUM(CASE WHEN touchscreen = 0 THEN 1 ELSE 0 END) AS 'TouchScreen_No'
+FROM laptop
+GROUP BY Company, touchscreen;
+
+```
+Result:
+
+![Touchscreen_yes_Vs_no](https://github.com/shanto173/SQL-2024/blob/main/image/Touchscreen_yes_no.png)
+
+    Dell has the highest number of TouchScreen laptops (61) compared to other brands, showing a strong presence of touchscreen technology in its models.
+    HP, Acer, Asus, and Lenovo also offer touchscreen models, but they predominantly manufacture Non-TouchScreen laptops.
+    Some companies like Apple, Chuwi, MSI, Huawei, and Vero don’t have any TouchScreen models in the dataset.
+
+#### 3.2 Bivariate Analysis (Company vs. CPU Brand)
+The SQL query below calculates the number of laptops from each company that use Intel, AMD, and Samsung CPUs.
+
+```sql
+SELECT 
+  company,
+  SUM(CASE WHEN cpu_brand = 'Intel' THEN 1 ELSE 0 END) AS 'Intel',
+  SUM(CASE WHEN cpu_brand = 'AMD' THEN 1 ELSE 0 END) AS 'AMD',
+  SUM(CASE WHEN cpu_brand = 'Samsung' THEN 1 ELSE 0 END) AS 'Samsung'
+FROM laptop
+GROUP BY company;
+```
+
+Result:
+
+![Company_brand_useage](https://github.com/shanto173/SQL-2024/blob/main/image/company_cpu_brand.png)
+    
+    Insights:
+    Dell, HP, Lenovo, and Asus primarily use Intel CPUs in their laptops, with very few models using AMD.
+    HP has the highest number of AMD laptops (23), followed by Lenovo (16).
+    Only Samsung uses its own CPU in one of its laptops, while other companies exclusively use Intel or AMD.
+    Brands like Apple, MSI, and Chuwi solely use Intel CPUs.
 
 
 
