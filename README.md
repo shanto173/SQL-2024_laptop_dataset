@@ -774,7 +774,7 @@ GROUP BY Company;
 
 Result:
 
-![Company_brand_useage](https://github.com/shanto173/SQL-2024/blob/main/image/Company%20Vs%20Average_price.png)
+![Company_Avg_Price](https://github.com/shanto173/SQL-2024/blob/main/image/Company%20Vs%20Average_price.png)
     
     Insights:
     Razer has the highest average laptop price (178,283), followed by LG (111,835), indicating these brands focus on premium, high-end laptops.
@@ -782,6 +782,30 @@ Result:
     Chuwi, Vero, and Mediacom have the lowest average prices, indicating these brands offer budget laptops.
     HP, Acer, and Lenovo are positioned as mid-range brands, with average prices ranging between 33,796 and 58,377.
 
+
+#### 3.3 Bivariate Analysis (Company vs. Price Range)(Category Vs numerical)
+The SQL query calculates the minimum and maximum laptop prices for each company.
+
+```sql
+SELECT 
+  Company, 
+  MIN(Price) AS Min_Price, 
+  MAX(Price) AS Max_Price
+FROM laptop
+GROUP BY Company;
+
+```
+
+Result:
+
+![Company_Price_Range](https://github.com/shanto173/SQL-2024/blob/main/image/min_max_price.png)
+    
+       Insights:
+    1. Razer has the widest price range, with laptops ranging from 54,825 to 324,955, indicating a broad product line that includes both premium and ultra-premium models.
+    2. HP and Lenovo also show a wide price range, with HP ranging from 11,136 to 233,846 and Lenovo from 12,201 to 261,019.This suggests they offer both budget and high-end laptops.
+    3. Vero and Chuwi are focused on budget-friendly laptops, with their maximum prices not exceeding 23,923.
+    4. Apple and MSI tend to focus on mid-to-premium laptops, with Apple's prices ranging from 47,896 to 152,274, while MSI’s range is from 44,702 to 149,131.
+    5. Google and Huawei offer products in a narrower range, primarily targeting the higher end of the market.
 
 
 
