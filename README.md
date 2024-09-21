@@ -761,6 +761,28 @@ Result:
     Brands like Apple, MSI, and Chuwi solely use Intel CPUs.
 
 
+#### 3.3 Bivariate Analysis (Company vs. Average Price)(Category Vs numerical)
+The SQL query below calculates the average laptop price for each Company.
+
+```sql
+SELECT 
+  Company, 
+  ROUND(AVG(Price)) AS Avg_Price
+FROM laptop
+GROUP BY Company;
+```
+
+Result:
+
+![Company_brand_useage](https://github.com/shanto173/SQL-2024/blob/main/image/Company%20Vs%20Average_price.png)
+    
+    Insights:
+    Razer has the highest average laptop price (178,283), followed by LG (111,835), indicating these brands focus on premium, high-end laptops.
+    Apple, Microsoft, and MSI also have high average prices, suggesting they cater to a higher-tier market.
+    Chuwi, Vero, and Mediacom have the lowest average prices, indicating these brands offer budget laptops.
+    HP, Acer, and Lenovo are positioned as mid-range brands, with average prices ranging between 33,796 and 58,377.
+
+
 
 
 
