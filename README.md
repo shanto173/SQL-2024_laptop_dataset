@@ -26,9 +26,10 @@ This project involves cleaning a dataset of laptops, which includes steps such a
 
 1. [Exploratory-Data-Analysis](#Exploratory-Data-Analysis)<br>
 2. [Introduction](#Introduction)
-4. [Data-Preview](#1-Data-Preview)
-5. [Univariate-Analysis-of-Numerical-Columns(Price)](#2-univariate-analysis-of-numerical-columnsprice)
-6. [Bivariate-Data-Analysis(Numerical-Column](#3-bivariate-data-analysisnumerical-column)
+3. [Data-Preview](#1-Data-Preview)
+4. [Univariate-Analysis-of-Numerical-Columns](#2-univariate-analysis-of-numerical-column)
+5. [Bivariate-Data-Analysis(Numerical Vs Numerical)](#3-bivariate-data-analysisnumerical-column)
+6. [Bivariate-Data-Analysis(Categorical Vs Numerical)](#3-bivariate-data-analysisnumerical-column)
 
 
 
@@ -422,8 +423,8 @@ Results:
 
 Retrieves 5 random rows from the laptop table for getting a random sample of data to examine various parts of the dataset.
 
-### 2-Univariate-Analysis-of-Numerical-Columns(Price)
-
+### 2-Univariate-Analysis-of-Numerical-Columns
+Numerical-Columns(Price)
 This section focuses on the price column, which is a numerical column of interest. It includes steps for calculating key statistical measures and identifying outliers.
 
 #### Creating a New Index for Percentile Calculation
