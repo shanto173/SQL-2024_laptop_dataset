@@ -29,7 +29,10 @@ This project involves cleaning a dataset of laptops, which includes steps such a
 3. [Data-Preview](#1-Data-Preview)
 4. [Univariate-Analysis-of-Numerical-Columns](#2-univariate-analysis-of-numerical-column)
 5. [Bivariate-Data-Analysis(Numerical Vs Numerical)](#3-bivariate-data-analysisnumerical-column)
-6. [Bivariate-Data-Analysis(Categorical Vs Numerical)](#3-bivariate-data-analysisnumerical-column)
+6. [Bivariate-Data-Analysis(Categorical Vs Numerical)](#33-bivariate-analysis-company-vs-average-pricecategory-vs-numerical)
+7. [Missing Value Treatment (Imputing Missing Price)](#3-missing-value-treatment)
+8. [Feature_Engineering](#4-feature-enginerring)
+9. [Encoding(One Hot Encoding)](#5-encoding-one-hot-encoding)
 
 
 
@@ -810,16 +813,140 @@ Result:
 
 
 
+### 3. Missing Value Treatment 
+
+#### 3.1 Missing Value Treatment (delet all those missing rows)
+```sql
+DELETE FROM laptop
+WHERE price IS NULL;
+```
+
+#### 3.2 Missing Value Treatment(Imputing Missing Price by avg price)
+The SQL query below updates the price column, filling any null values with the average price from the dataset.
+
+```sql
+UPDATE laptop
+SET price = (SELECT AVG(price) FROM laptop)
+WHERE price IS NULL;
+```
+    Reasoning:
+    Imputation using mean is a common and simple technique to handle missing numerical data.
+    In this case, I chose to use the average price because it provides a reasonable estimate that minimizes the impact of missing values on        further analysis.
 
 
+#### 3.3 Missing Value Treatment (Imputing Missing Price by Company)
+The SQL query below updates the price column by setting null values to the average price for each company, ensuring that the imputed values are more specific and relevant to the brand.
+```sql
+UPDATE laptop t1
+SET price = (
+    SELECT AVG(price) 
+    FROM laptop t2 
+    WHERE t1.company = t2.company
+)
+WHERE t1.price IS NULL;
+```
+    Explanation:
+    The query calculates the average price for each company by grouping laptops by the company column.
+    If a laptop's price is missing, the query updates that row with the average price of the laptops from the same company.
 
 
+#### 3.4 Missing Value Treatment Based on Company and CPU Name
+The fourth approach for treating missing values involves filling the price where it is NULL by calculating the average price for laptops that belong to the same Company and have the same cpu_name. This method ensures that we provide a meaningful and relevant estimate for missing prices based on similarities in brand and processor.
+
+```sql
+UPDATE laptop t1
+SET price = (
+    SELECT AVG(t2.price)
+    FROM (SELECT * FROM laptop) t2
+    WHERE t2.Company = t1.Company
+    AND t2.cpu_name = t1.cpu_name
+)
+WHERE price IS NULL;
+
+```
+    Explanation:
+    This method ensures that missing prices are filled with relevant averages based on both the laptop’s brand (Company) and its processor             (cpu_name). This provides more precision compared to using a simple overall average.
 
 
+### 4 Feature Enginerring 
+
+ After performing EDA now i have better knowledge about the data set but there are some column that are not usefull for analysis such as Height and width and inches, so with this three i can now create new column PPI which is much more helpfull for analysis.
+
+ PPI formula is :
+ 
+ ![PPI_formula](https://github.com/shanto173/SQL-2024/blob/main/image/ppi_formula.png)
 
 
+#### 4.1 Adding a New Column for PPI Calculation
+
+The first operation is to add a new column named `ppi` to the `laptop` table. This column will store the calculated PPI for each laptop.
+
+```sql
+ALTER TABLE laptop
+ADD COLUMN ppi INTEGER;
+```
+#### 4.1.2 Updating the PPI Column with Calculated Values
+
+```sql
+UPDATE laptop t1
+SET ppi = (
+  SELECT ROUND(SQRT((width * width) + (height * height)) / Inches)
+  FROM (SELECT * FROM laptop) t2
+  WHERE t1.index = t2.index
+);
+
+```
+
+#### 4.2 Updating the Screen Size Column with Categorized Values
+
+There is another column name inches, because of there are so many value we can create a categories from that 
+        when inches <= 14 then 'Small_size'
+        when inches >14.1 and Inches < 16 then 'medium'
+        when inches >= 16 then 'large'
+
+#### 4.2.1 Adding a New Column for Screen Size Classification
+
+We first create a new column, `screen_size`, in the `laptop` table. This column will hold the categorized values corresponding to the size of the screen.
+
+```sql
+ALTER TABLE laptop
+ADD COLUMN screen_size VARCHAR(255) AFTER inches;
+```
+#### 4.2.2 Updating the Screen Size Column with Categorized Values
+
+```sql
+WITH temp AS (
+  SELECT inches,
+    CASE 
+      WHEN inches <= 14 THEN 'Small_size'
+      WHEN inches > 14.1 AND inches < 16 THEN 'medium'
+      WHEN inches >= 16 THEN 'large'
+    END AS 'screen_size'
+  FROM laptop
+)
+UPDATE laptop t1
+JOIN temp t2 ON t1.inches = t2.inches
+SET t1.screen_size = t2.screen_size;
+```
+
+This query classifies the inches values into categories and updates the screen_size column for each laptop in the dataset accordingly.
 
 
+### 5 Encoding (One-Hot Encoding)
+
+One-hot encoding is used to convert the gpu_brand categorical column into binary features.
+
+```sql
+-- One-Hot Encoding for GPU brand
+SELECT gpu_brand,
+    CASE WHEN gpu_brand = 'Inter' THEN 1 ELSE 0 END AS 'inter',
+    CASE WHEN gpu_brand = 'AMD' THEN 1 ELSE 0 END AS 'amd', 
+    CASE WHEN gpu_brand = 'nvidia' THEN 1 ELSE 0 END AS 'nvidia',
+    CASE WHEN gpu_brand = 'arm' THEN 1 ELSE 0 END AS 'arm'
+FROM laptop;
+```
+
+![One_hot_encoding](https://github.com/shanto173/SQL-2024/blob/main/image/one_hot_encode.png)
 
 
 
